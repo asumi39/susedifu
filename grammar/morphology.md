@@ -34,9 +34,10 @@ Verbal compound: wozakabu = woza 'magic' + kabu 'creation' → 'creation of magi
 ## Derivational devices
 
 - `di-` person/agent **prefix** (attested, 9 words): dikabu 'god', didabu 'worker', disamu 'king', dima 'woman', diba 'man', dijohua 'Chinese person', diwota 'outsider', diwoza 'priest', digoga 'criminal'. Attaches to nouns and to adjectives (digoga, diwota) with the reading 'person characterized by X'. The only prefix in the language.
-- ma 'female' / ba 'male' bound gender morphemes (confirmed, 2026-11-08): mama = ma + ma and baba = ba + ba (reduplication), dima = di + ma, diba = di + ba — kinship and gender unite with the di- person prefix. The bi/ya/ta of dibi/diya/dita have no corresponding system (roots).
+- Clipping: a free word is clipped to a bound morpheme for use in compounds (confirmed, 2026-11-08) — weru → we 'fluid', mama → ma 'female', baba → ba 'male'.
+- ma 'female' / ba 'male' bound gender morphemes (clipped from mama / baba): dima = di + ma, diba = di + ba — kinship and gender unite with the di- person prefix. The bi/ya/ta of dibi/diya/dita have no corresponding system (roots).
 - V↔N zero-conversion (attested): suse 'speak / speech', kabu 'create / creation, thing', dabu 'work / labor'.
-- `-we` as second element = **clipped weru 'water'**, modifier 'fluid/flow of X' (confirmed, 2026-11-08): hosiwe 'the air's water' = wind, zijawe 'the lightning's water' = electric current, susewe 'the speech's water' = sentence.
+- `-we` as second element = clipped weru 'water' (see clipping), modifier 'fluid/flow of X': hosiwe 'the air's water' = wind, zijawe 'the lightning's water' = electric current, susewe 'the speech's water' = sentence.
 - `-fu` as second element (attested in susefu, kabufu, gogafu-within-mahagogafu): **fu = 'collection (of X)'** (confirmed, 2026-11-08). susefu 'collection of speech' = language, kabufu 'collection of creations' = world, gogafu 'collection of evil (things)'.
 - Color terms: yoki 'yellow' is the only attested color word; the `-ki` color-suffix analysis is a draft (swadesh-drafts.md), unadopted.
 

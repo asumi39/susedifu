@@ -63,8 +63,8 @@ word = "mama"
 pos = "noun"
 en = "mother"
 zh = "母親"
-etym = "ma + ma"
-note = "reduplication of the female morpheme ma"
+etym = "(root)"
+note = "source of the clipped morpheme ma"
 
 [[word]]
 id = 7
@@ -72,8 +72,8 @@ word = "baba"
 pos = "noun"
 en = "father"
 zh = "父親"
-etym = "ba + ba"
-note = "reduplication of the male morpheme ba"
+etym = "(root)"
+note = "source of the clipped morpheme ba"
 
 [[word]]
 id = 8
@@ -559,16 +559,16 @@ note = "attested only as the second element: susefu, kabufu, gogafu"
 id = 67
 word = "ma"
 pos = "bound morpheme"
-en = "female (gender morpheme; compounds only)"
-zh = "女（性別詞素，僅見於複合詞）"
-etym = "(root)"
-note = "mama = ma + ma (reduplication), dima = di + ma"
+en = "female (gender morpheme; clipped from mama)"
+zh = "女（mama 的略縮詞素，僅見於複合詞）"
+etym = "mama (clipped)"
+note = "attested in dima = di + ma"
 
 [[word]]
 id = 68
 word = "ba"
 pos = "bound morpheme"
-en = "male (gender morpheme; compounds only)"
-zh = "男（性別詞素，僅見於複合詞）"
-etym = "(root)"
-note = "baba = ba + ba (reduplication), diba = di + ba"
+en = "male (gender morpheme; clipped from baba)"
+zh = "男（baba 的略縮詞素，僅見於複合詞）"
+etym = "baba (clipped)"
+note = "attested in diba = di + ba"
