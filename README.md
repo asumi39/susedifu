@@ -1,6 +1,6 @@
-# Susedifu 笛芙語
+# susedifu 笛芙語
 
-Susedifu（笛芙語）是一門原創語言，意為「人的語言」（suse 話語 + difu 人），配有自創文字字體。
+susedifu（笛芙語）是一門原創語言，意為「人的語言」（suse 話語 + difu 人），配有自創文字字體。
 
 ## 語言特點
 
@@ -15,5 +15,5 @@ Susedifu（笛芙語）是一門原創語言，意為「人的語言」（suse �
 | 路徑 | 說明 |
 | --- | --- |
 | `Documents/words.ods` | 詞彙表（64 個基礎詞條，拉丁字母 + 中文釋義） |
-| `Fonts/Susedifu.ttf` | 自創文字字體 |
-| `Fonts/Susedifu.svg` | 字體 SVG 版 |
+| `Fonts/susedifu.ttf` | 自創文字字體 |
+| `Fonts/susedifu.svg` | 字體 SVG 版 |
