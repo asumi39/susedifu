@@ -366,18 +366,18 @@ etym = "(root)"
 id = 44
 word = "yikasamu"
 pos = "noun"
-en = "king of the Difu (Yikasamu)"
-zh = "王；笛撒姆（笛芙人之君王）"
+en = "scepter"
+zh = "權杖"
 etym = "yika + samu"
+note = "glosses of entries 44/45 were swapped in the original ODS; corrected 2026-11-08"
 
 [[word]]
 id = 45
 word = "disamu"
 pos = "noun"
-en = "scepter"
-zh = "權杖"
+en = "king; Disamu (the monarch of the Difu)"
+zh = "王；笛撒姆（笛芙人之君王）"
 etym = "di + samu"
-note = "di- here is unlikely the person prefix; the semantics need confirmation"
 
 [[word]]
 id = 46

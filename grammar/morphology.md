@@ -7,7 +7,7 @@
 
 ## Observed derivational patterns (hypotheses, to be confirmed)
 
-- `di-` — person/agent prefix: dikabu 'god', didabu 'worker', dijohua 'Chinese person', diwota 'outsider', diwoza 'priest', digoga 'criminal'
+- `di-` — person/agent prefix: dikabu 'god', didabu 'worker', disamu 'king', dijohua 'Chinese person', diwota 'outsider', diwoza 'priest', digoga 'criminal'
 - `-we` — seen in hosiwe 'wind', zijawe 'electric current', susewe 'sentence'; the draft hypothesis `we` = 'flow' (swadesh-drafts.md) is plausible but unconfirmed
 - `-fu` — seen in susefu 'language', kabufu 'world', mahagogafu 'prison'; semantic contribution unclear
 - Compounding places the modifier first (wozahosiwe 'wind magic', yikawoza 'magic staff', mahasamu 'capital', susedikabu 'oracle'); the head is usually last — to be confirmed

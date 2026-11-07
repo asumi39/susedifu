@@ -18,7 +18,7 @@ Lexicalized compounds (e.g. yikawoza) are glossed as single tokens; morpheme-lev
     『人創造魔法。』
     Pins: transitive clauses are SVO; the object is unmarked.
 
-(3) yikawoza de yikasamu
+(3) yikawoza de disamu
     magic.staff belong king
     『權杖屬於王。』
     Pins: X de Y = 'X belongs to Y' (possessed first). The genitive reading ('the king's staff') is untested — add a probe once confirmed.
