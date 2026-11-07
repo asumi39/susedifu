@@ -14,8 +14,12 @@ susedifu is a constructed language, the 'language of the people' (suse 'speech' 
 
 | Path | Description |
 | --- | --- |
-| `Documents/words.toml` | The lexicon — 64 base entries; the single source of truth for words and etymology |
-| `Documents/grammar/` | Grammar docs: phonology, morphology, syntax, and a regression corpus of examples |
-| `Documents/swadesh-drafts.md` | Swadesh 207-item comparison with new-word drafts |
-| `Fonts/susedifu.ttf` | The custom script font |
-| `Fonts/susedifu.svg` | SVG version of the font |
+| `lexicon.toml` | The lexicon — 64 base entries; the single source of truth for words and etymology |
+| `grammar/` | Grammar docs: phonology, morphology, syntax, and a regression corpus of example sentences |
+| `swadesh-drafts.md` | Swadesh 207-item comparison with new-word drafts |
+| `fonts/` | The custom script font (TTF + SVG) |
+
+## License
+
+- Language data and documentation: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — susedifu © 2026 asumi39 (`LICENSE`)
+- The Susedifu font: [SIL Open Font License 1.1](https://openfontlicense.org/) with Reserved Font Name "Susedifu" (`LICENSE-FONT`)

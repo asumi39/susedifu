@@ -2,7 +2,7 @@
 
 > Generated: 2026-11-07
 > Swadesh list source: Wiktionary, "Appendix: Mandarin Swadesh lists" (the standard 207-item version, the scholarly default)
-> susedifu source: `Documents/words.toml` (64 entries)
+> susedifu source: `lexicon.toml` (64 entries)
 > This file is for comparison and drafting only — **nothing here has been written back into words.toml**; every draft may be edited or rejected.
 
 ## Coverage

@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repository is the database of susedifu, a constructed language. It holds documents and fonts only, no code: no build, test, or lint. After changes, rely on content-consistency checks.
+This repository is the database of susedifu, a constructed language. It holds documents and fonts only, no code: no build, test, or lint. After changes, run the consistency checks below.
 
 ## Language essentials
 
@@ -10,10 +10,20 @@ This repository is the database of susedifu, a constructed language. It holds do
 
 ## Files
 
-- `Documents/words.toml` — the lexicon (64 entries), the single source of truth for etymology; one `[[word]]` block per entry, field reference in the header comment
-- `Documents/swadesh-drafts.md` — Swadesh 207-item comparison and new-word drafts (drafts are tentative and may be edited or rejected; adopt into words.toml only after approval)
-- `Documents/grammar/` — grammar docs: phonology / morphology / syntax / examples; examples is the regression anchor for grammar changes
-- `Fonts/susedifu.ttf`, `Fonts/susedifu.svg` — the custom script font; do not modify unless necessary
+- `lexicon.toml` — the lexicon (64 entries), the single source of truth for words and etymology; one `[[word]]` block per entry, field reference in the header comment
+- `grammar/` — phonology / morphology / syntax / examples; examples is the regression corpus of probe sentences
+- `swadesh-drafts.md` — Swadesh 207-item comparison and new-word drafts (tentative; adopt into lexicon.toml only after owner approval)
+- `fonts/susedifu.ttf`, `fonts/susedifu.svg` — the custom script font; do not modify unless necessary
+- `LICENSE` (CC-BY 4.0, applies to all content) and `LICENSE-FONT` (SIL OFL 1.1, applies to fonts/)
+
+## Consistency checks (run after every change)
+
+1. Every word cited in `grammar/` or `swadesh-drafts.md` exists in `lexicon.toml` (or is clearly marked as a draft).
+2. No duplicate word forms in `lexicon.toml`, except attested homonyms (sa, entries 19/20).
+3. Every `etym` decomposition matches an attested derivational pattern in `grammar/morphology.md`; new patterns need owner approval.
+4. Word forms are lowercase Latin without spaces and use only attested phonemes (vowels a e i o u; consonants b d f g h k m r s t w y z; j only in the loanword johua).
+5. Drafts never enter `lexicon.toml` silently; grammar docs never duplicate the root inventory.
+6. After any grammar change, re-check every sentence in `grammar/examples.md` against the new rules.
 
 ## Conventions
 
