@@ -1,6 +1,7 @@
 # susedifu lexicon — single source of truth for words and etymology.
 # Migrated in full from Documents/words.ods on 2026-11-07 (the ODS was removed; see git history).
 # pos and etym were drafted by the agent on 2026-11-07 and are pending owner review.
+# Entries with id ≥ 65 were added after the ODS migration (bound morphemes, owner-approved 2026-11-08).
 #
 # One [[word]] block per entry, ordered by id (the original ODS row number).
 # Fields:
@@ -62,7 +63,8 @@ word = "mama"
 pos = "noun"
 en = "mother"
 zh = "母親"
-etym = "(root)"
+etym = "ma + ma"
+note = "reduplication of the female morpheme ma"
 
 [[word]]
 id = 7
@@ -70,7 +72,8 @@ word = "baba"
 pos = "noun"
 en = "father"
 zh = "父親"
-etym = "(root)"
+etym = "ba + ba"
+note = "reduplication of the male morpheme ba"
 
 [[word]]
 id = 8
@@ -78,7 +81,7 @@ word = "dima"
 pos = "noun"
 en = "woman"
 zh = "女人"
-etym = "(root)"
+etym = "di + ma"
 
 [[word]]
 id = 9
@@ -86,7 +89,7 @@ word = "diba"
 pos = "noun"
 en = "man"
 zh = "男人"
-etym = "(root)"
+etym = "di + ba"
 
 [[word]]
 id = 10
@@ -181,16 +184,16 @@ etym = "(root)"
 id = 21
 word = "si"
 pos = "preposition"
-en = "(preposition used in regular/declarative sentences)"
-zh = "（用於常規句的介詞）"
+en = "(preposition; declarative-clause form — one preposition with so, voice-conditioned)"
+zh = "介詞：常規句用形；與 so 同為一介詞的語態變體"
 etym = "(root)"
 
 [[word]]
 id = 22
 word = "so"
 pos = "preposition"
-en = "(preposition used in passive sentences)"
-zh = "（用於被動句的介詞）"
+en = "(preposition; passive-clause form — one preposition with si, voice-conditioned)"
+zh = "介詞：被動句用形；與 si 同為一介詞的語態變體"
 etym = "(root)"
 
 [[word]]
@@ -533,3 +536,39 @@ en = "Rome"
 zh = "羅馬"
 etym = "(root)"
 note = "loanword for Rome"
+
+[[word]]
+id = 65
+word = "we"
+pos = "bound morpheme"
+en = "fluid, flow (clipped form of weru; compounds only)"
+zh = "流（weru 的略縮形，僅見於複合詞）"
+etym = "weru (clipped)"
+note = "attested only as the second element: hosiwe, zijawe, susewe"
+
+[[word]]
+id = 66
+word = "fu"
+pos = "bound morpheme"
+en = "collection (of X; compounds only)"
+zh = "集合（……之集，僅見於複合詞）"
+etym = "(root)"
+note = "attested only as the second element: susefu, kabufu, gogafu"
+
+[[word]]
+id = 67
+word = "ma"
+pos = "bound morpheme"
+en = "female (gender morpheme; compounds only)"
+zh = "女（性別詞素，僅見於複合詞）"
+etym = "(root)"
+note = "mama = ma + ma (reduplication), dima = di + ma"
+
+[[word]]
+id = 68
+word = "ba"
+pos = "bound morpheme"
+en = "male (gender morpheme; compounds only)"
+zh = "男（性別詞素，僅見於複合詞）"
+etym = "(root)"
+note = "baba = ba + ba (reduplication), diba = di + ba"

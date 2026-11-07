@@ -19,8 +19,7 @@
 
 ## si and so
 
-- si — attested gloss: 'preposition used in regular/declarative sentences'. What it marks, and where its phrase sits in the clause: open (probe 5 tests position only).
-- so — attested gloss: 'preposition used in passive sentences'. Working reading: it introduces the agent of a passive-like clause with a bare, clause-final verb (probe 6). Confirmation pending.
+- **si / so — one preposition with voice-conditioned allomorphy** (confirmed, 2026-11-08): si in declarative clauses, so in passive clauses. What the preposition marks beyond voice, and where its phrase sits in the clause: open (probes 5, 6).
 
 ## Clause combining
 

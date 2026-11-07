@@ -207,7 +207,7 @@ Only 24 of the 207 items have existing words to build on; the remaining 183 all 
 | 141 | sing | 唱 | ⬜ | suge | suse 'speech' family |
 | 142 | play | 玩 | ⬜ | giwa | |
 | 143 | float | 浮 | ⬜ | webo | we- water family |
-| 144 | flow | 流 | ⬜ | we | root we = 'flow', inferred from the -we suffix |
+| 144 | flow | 流 | ⬜ | we | note updated 2026-11-08: we is now the clipped form of weru; a free verb 'to flow' remains open |
 | 145 | freeze | 結冰 | ⬜ | kofu | |
 | 146 | swell | 膨脹 | ⬜ | bufo | |
 
