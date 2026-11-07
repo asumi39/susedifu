@@ -2,8 +2,8 @@
 
 > 產生日期：2026-11-07
 > Swadesh list 來源：Wiktionary《Appendix:Mandarin Swadesh lists》（標準 207 詞版，Swadesh 詞表的學界通用版本）
-> susedifu 詞彙來源：`Documents/words.ods`（64 條）
-> 本表僅為對照與草案，**尚未寫回 words.ods**；草案欄全部可改可棄。
+> susedifu 詞彙來源：`Documents/words.toml`（64 條）
+> 本表僅為對照與草案，**尚未寫回 words.toml**；草案欄全部可改可棄。
 
 ## 覆蓋統計
 

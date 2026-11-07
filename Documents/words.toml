@@ -1,0 +1,401 @@
+# susedifu lexicon — single source of truth for words and etymology.
+# Migrated in full from Documents/words.ods on 2026-11-07 (the ODS was removed; see git history).
+#
+# One [[word]] block per entry, ordered by id (the original ODS row number).
+# Fields:
+#   id      — original ODS row number
+#   word    — word form (lowercase Latin, no spaces)
+#   en      — English gloss (primary; drafted by the agent, pending owner review)
+#   zh      — original Chinese gloss from the ODS (kept for reference)
+#   variant — attested variant spelling, only when one exists
+#   etym    — root decomposition, e.g. "hosi + we"; empty = root word [to fill]
+#   pos     — part of speech [to fill]
+#   note    — usage notes [optional]
+#
+# The original ODS had one unlabeled row above the table: "susedifu | dati | johua" —
+# likely a legend; kept here until the owner clarifies it.
+
+[[word]]
+id = 1
+word = "zija"
+en = "thunder and lightning"
+zh = "雷電"
+
+[[word]]
+id = 2
+word = "hosi"
+en = "air; gaseous substance"
+zh = "空氣；氣態物質"
+
+[[word]]
+id = 3
+word = "weru"
+en = "water; something in a flowing state"
+zh = "水；流動態的"
+
+[[word]]
+id = 4
+word = "hosiwe"
+en = "wind"
+zh = "風"
+
+[[word]]
+id = 5
+word = "zijawe"
+en = "electric current"
+zh = "電流"
+
+[[word]]
+id = 6
+word = "mama"
+en = "mother"
+zh = "母親"
+
+[[word]]
+id = 7
+word = "baba"
+en = "father"
+zh = "父親"
+
+[[word]]
+id = 8
+word = "dima"
+en = "woman"
+zh = "女人"
+
+[[word]]
+id = 9
+word = "diba"
+en = "man"
+zh = "男人"
+
+[[word]]
+id = 10
+word = "difu"
+en = "person; human"
+zh = "人"
+
+[[word]]
+id = 11
+word = "dibi"
+en = "self; I, me"
+zh = "自己；我"
+
+[[word]]
+id = 12
+word = "diya"
+en = "you (2nd person; any number, any gender)"
+zh = "你；你們；妳；妳們"
+
+[[word]]
+id = 13
+word = "dita"
+en = "he/she/it; they (3rd person)"
+zh = "他；她；它；他們；她們；它們"
+
+[[word]]
+id = 14
+word = "de"
+en = "to belong (to)"
+zh = "屬於"
+
+[[word]]
+id = 15
+word = "suse"
+en = "to speak; speech, discourse"
+zh = "說；話語"
+
+[[word]]
+id = 16
+word = "kada"
+en = "tree"
+zh = "樹木"
+
+[[word]]
+id = 17
+word = "susefu"
+en = "language"
+zh = "語言"
+
+[[word]]
+id = 18
+word = "susedifu"
+en = "Susedifu (this language; lit. 'language of the people')"
+zh = "笛芙語（意譯：人的語言）"
+
+[[word]]
+id = 19
+word = "sa"
+en = "to be (copula)"
+zh = "是"
+
+[[word]]
+id = 20
+word = "sa"
+variant = "ya"
+en = "correct; yes"
+zh = "對"
+
+[[word]]
+id = 21
+word = "si"
+en = "(preposition used in regular/declarative sentences)"
+zh = "（用於常規句的介詞）"
+
+[[word]]
+id = 22
+word = "so"
+en = "(preposition used in passive sentences)"
+zh = "（用於被動句的介詞）"
+
+[[word]]
+id = 23
+word = "kabu"
+en = "creation; to create; object, thing"
+zh = "創造；造物；物體；物品"
+
+[[word]]
+id = 24
+word = "dati"
+en = "Latin"
+zh = "拉丁"
+
+[[word]]
+id = 25
+word = "dikabu"
+en = "god; creator"
+zh = "神明；造物主；創造者"
+
+[[word]]
+id = 26
+word = "susedikabu"
+en = "oracle (divine utterance)"
+zh = "神諭"
+
+[[word]]
+id = 27
+word = "hufu"
+en = "to sleep"
+zh = "睡"
+
+[[word]]
+id = 28
+word = "susewe"
+en = "sentence (flow of speech)"
+zh = "句子（語流）"
+
+[[word]]
+id = 29
+word = "dabu"
+en = "labor; work"
+zh = "勞動；工作"
+
+[[word]]
+id = 30
+word = "didabu"
+en = "worker, laborer"
+zh = "勞動者；工作者；工人"
+
+[[word]]
+id = 31
+word = "woza"
+en = "magic; magical power; spell"
+zh = "魔法；魔力；法術"
+
+[[word]]
+id = 32
+word = "susewoza"
+en = "incantation, magic formula"
+zh = "咒語"
+
+[[word]]
+id = 33
+word = "duka"
+en = "container, vessel (any container)"
+zh = "容器（可泛指一切容器）"
+
+[[word]]
+id = 34
+word = "dukawoza"
+en = "Dukawoza ('magic vessel') — a Difu organ for storing magical power"
+zh = "杜卡沃澤（魔力容器）（笛芙人儲存魔力的器官）"
+
+[[word]]
+id = 35
+word = "wozakabu"
+en = "to create magic"
+zh = "創造魔法"
+
+[[word]]
+id = 36
+word = "wozahosiwe"
+en = "wind magic"
+zh = "風魔法"
+
+[[word]]
+id = 37
+word = "wozaweru"
+en = "water magic"
+zh = "水魔法"
+
+[[word]]
+id = 38
+word = "wozazija"
+en = "thunder magic"
+zh = "雷魔法"
+
+[[word]]
+id = 39
+word = "yika"
+en = "stick, rod, staff"
+zh = "棒子；棍子；手杖"
+
+[[word]]
+id = 40
+word = "yikawoza"
+en = "magic staff, wand"
+zh = "魔杖；法杖"
+
+[[word]]
+id = 41
+word = "yikakada"
+en = "(tree) branch"
+zh = "樹枝"
+
+[[word]]
+id = 42
+word = "weruwoza"
+en = "Weruwoza ('magic water') — used to replenish magical power"
+zh = "威露沃澤（魔水）（用於補充魔力）"
+
+[[word]]
+id = 43
+word = "samu"
+en = "power, authority"
+zh = "權力"
+
+[[word]]
+id = 44
+word = "yikasamu"
+en = "king of the Difu (Yikasamu)"
+zh = "王；笛撒姆（笛芙人之君王）"
+
+[[word]]
+id = 45
+word = "disamu"
+en = "scepter"
+zh = "權杖"
+
+[[word]]
+id = 46
+word = "fowu"
+en = "clothes, clothing"
+zh = "衣服"
+
+[[word]]
+id = 47
+word = "yoki"
+en = "yellow; yellow (adjective)"
+zh = "黃色；黃色的"
+
+[[word]]
+id = 48
+word = "johua"
+en = "China; Chinese"
+zh = "中華；中國；中華的；中國的"
+
+[[word]]
+id = 49
+word = "susejohua"
+en = "Chinese (the language)"
+zh = "華語"
+
+[[word]]
+id = 50
+word = "dijohua"
+en = "Chinese person; ethnic Chinese"
+zh = "中國人；華人"
+
+[[word]]
+id = 51
+word = "tiho"
+en = "Japan; Japanese"
+zh = "日本；日本的"
+
+[[word]]
+id = 52
+word = "susetiho"
+en = "Japanese (the language)"
+zh = "日語"
+
+[[word]]
+id = 53
+word = "ditiho"
+en = "Japanese person"
+zh = "日本人"
+
+[[word]]
+id = 54
+word = "kabufu"
+en = "world; planet Kabufu"
+zh = "世界；卡布芙星"
+
+[[word]]
+id = 55
+word = "wota"
+en = "outer, external; foreign"
+zh = "外面的；外界的；外來的"
+
+[[word]]
+id = 56
+word = "diwota"
+en = "outsider, foreigner"
+zh = "外來者；笛沃塔"
+
+[[word]]
+id = 57
+word = "diwoza"
+en = "priest; mage, sorcerer"
+zh = "祭司；笛沃澤；魔法師；巫師"
+
+[[word]]
+id = 58
+word = "goga"
+en = "evil, vicious; criminal"
+zh = "惡毒的；邪惡的；犯罪的"
+
+[[word]]
+id = 59
+word = "digoga"
+en = "criminal; evildoer; devil"
+zh = "罪犯；惡人；魔鬼"
+
+[[word]]
+id = 60
+word = "maha"
+en = "place, location"
+zh = "地點；地方"
+
+[[word]]
+id = 61
+word = "mahasamu"
+en = "Mahasamu (the capital)"
+zh = "瑪哈撒姆（首都）"
+
+[[word]]
+id = 62
+word = "mahagogafu"
+en = "Mahagogafu (the central prison); lit. 'place full of evil'"
+zh = "瑪哈貢嘎芙（中央監獄）；充滿邪惡之地"
+
+[[word]]
+id = 63
+word = "dodi"
+en = "loli (young girl)"
+zh = "蘿莉"
+
+[[word]]
+id = 64
+word = "roma"
+en = "Rome"
+zh = "羅馬"

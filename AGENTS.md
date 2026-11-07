@@ -10,10 +10,12 @@
 
 ## 檔案
 
-- `Documents/words.ods` — 詞彙表（64 條），詞源的唯一事實來源。ODS 本質是 zip，可用 `unzip -p Documents/words.ods content.xml` 直接讀取；資料列為 `編號 | 詞 | 詞（偶有差異）| 中文釋義`
+- `Documents/words.toml` — 詞彙表（64 條），詞源的唯一事實來源；一詞一段（`[[word]]`），欄位說明見檔頭註解
+- `Documents/swadesh-duibi.md` — Swadesh 207 詞對照與新詞草案（草案欄可改可棄，採納後才寫入 words.toml）
+- `Documents/grammar/` — 語法文檔：phonology／morphology／syntax／examples；examples 為語法改動的回歸錨點
 - `Fonts/susedifu.ttf`、`Fonts/susedifu.svg` — 自創文字字體，非必要不修改
 
 ## 慣例
 
-- 文檔一律用繁體中文（與詞表釋義一致）
+- 倉庫元文檔（本檔）與對話用繁體中文；語言內容（words.toml、grammar/）一律英文，術語與標注縮寫採萊比錫慣例（Leipzig Glossing Rules），詞表保留 `zh` 欄對照原始中文釋義
 - 直接 commit 到 `main` 並 push，無 PR 流程
