@@ -18,11 +18,11 @@ This repository is the database of susedifu, a constructed language. It holds do
 
 ## Consistency checks (run after every change)
 
-1. Every word cited in `grammar/` or `swadesh-drafts.md` exists in `lexicon.toml` (or is clearly marked as a draft).
+1. Every word cited in `grammar/` exists in `lexicon.toml`.
 2. No duplicate word forms in `lexicon.toml`, except attested homonyms (sa, entries 19/20).
 3. Every `etym` decomposition matches an attested derivational pattern in `grammar/morphology.md`; new patterns need owner approval.
 4. Word forms are lowercase Latin without spaces and use only attested phonemes (vowels a e i o u; consonants b d f g h k m r s t w y z; j only in the johua family, i.e. the loanword and its derivatives).
-5. Drafts never enter `lexicon.toml` silently; grammar docs never duplicate the root inventory.
+5. Words enter `lexicon.toml` only from the owner — the ⬜ slots in `swadesh-coverage.md` are theirs to fill; grammar docs never duplicate the root inventory.
 6. After any grammar change, re-check every sentence in `grammar/examples.md` against the new rules.
 
 ## Conventions

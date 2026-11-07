@@ -1,6 +1,6 @@
 # Phonology
 
-> Claim tags: **(attested)** = generalizable from lexicon.toml; **(proposed)** = new, needs owner confirmation; **(draft)** = from swadesh-drafts.md, not yet adopted.
+> Claim tags: **(attested)** = generalizable from lexicon.toml; **(proposed)** = new, needs owner confirmation; **open** = undecided — the owner will supply or decide.
 
 ## Phoneme inventory
 
