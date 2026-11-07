@@ -246,7 +246,7 @@ Only 24 of the 207 items have existing words to build on; the remaining 183 all 
 
 | № | Swadesh | Chinese | Existing | Draft | Notes |
 |---:|---------|---------|----------|-------|-------|
-| 172 | red | 紅 | ⬜ | roki | -ki color suffix extrapolated from yoki (one example only, unverified) |
+| 172 | red | 紅 | ⬜ | roki | imitates the shape of yoki 'yellow' |
 | 173 | green | 綠 | ⬜ | seki | same as above |
 | 174 | yellow | 黃 | ✅ yoki | — | the only color word in the current lexicon |
 | 175 | white | 白 | ⬜ | faki | same as above |
