@@ -17,7 +17,7 @@
 
 ## Prosody
 
-- Stress (proposed): penultimate syllable. Nothing in the lexicon bears on this; a default is needed for describing new words.
+- Stress: undetermined — nothing in the lexicon bears on it. Do not assume a default when describing new words.
 
 ## Notes
 

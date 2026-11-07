@@ -2,7 +2,7 @@
 
 This file anchors consistency: after any change to the grammar or the lexicon, re-check every example below against the new state.
 
-Sentences (1)–(10) use only attested lexicon words; (11)–(13) use draft words (swadesh-drafts.md) and become valid only after their adoption. All encode the agent's working hypotheses pending owner confirmation; once confirmed, they become fixed anchors.
+Sentences (1)–(10) use only attested lexicon words; (11)–(12) use draft words (swadesh-drafts.md) and become valid only after their adoption. Confirmed facts (SOV order, postnominal adjectives, de 'of', fu 'collection') are owner decisions of 2026-11-08; probes marked open test points the owner has not yet decided.
 
 Lexicalized compounds (e.g. yikawoza) are glossed as single tokens; morpheme-level analysis lives in morphology.md.
 
@@ -11,68 +11,59 @@ Lexicalized compounds (e.g. yikawoza) are glossed as single tokens; morpheme-lev
 (1) dibi sa difu
     1SG COP person
     『我是人。』
-    Pins: basic clause is Subject–Copula–Predicate; pronouns are not dropped.
+    Tests: the copula clause. sa's position (directly linking subject and predicate) is assumed, not yet confirmed.
 
-(2) difu kabu woza
-    person create magic
+(2) difu woza kabu
+    person magic create
     『人創造魔法。』
-    Pins: transitive clauses are SVO; the object is unmarked.
+    Pins: SOV — the object precedes the verb (confirmed).
 
 (3) yikawoza de disamu
-    magic.staff belong king
-    『權杖屬於王。』
-    Pins: X de Y = 'X belongs to Y' (possessed first). The genitive reading ('the king's staff') is untested — add a probe once confirmed.
+    staff of king
+    『王的權杖』
+    Pins: de 'of' links a noun to its possessor: [N de X] = 'N of X' (confirmed). NP fragment, not a clause.
 
 (4) fowu yoki
     clothes yellow
-    『衣服是黃色的。』
-    Pins: predicate adjectives follow the subject without a copula. Alternative to test: fowu sa yoki.
+    『黃色的衣服』／『衣服是黃的』
+    Open: as an NP this is 'yellow clothes' (postnominal adjective, confirmed); whether a bare adjective can also predicate without a copula is undetermined — the string is structurally ambiguous.
 
-(5) diwoza hufu si mahasamu
-    priest sleep at capital
-    『祭司睡在首都。』
-    Pins: si covers locative 'at/in'; the si-phrase follows the verb.
+(5) diwoza si mahasamu hufu
+    priest at capital sleep
+    『祭司在首都睡覺。』
+    Tests: the position of the si-phrase in an SOV clause. What si itself marks is undetermined (attested gloss only: 'preposition used in regular/declarative sentences').
 
 (6) yikawoza so diwoza kabu
-    magic.staff by priest create
+    staff by priest create
     『權杖由祭司創造。』
-    Pins: so introduces the agent of a passive-like clause; the verb stays bare (no passive morphology assumed).
+    Pins: so introduces the agent; the verb is clause-final, consistent with SOV. Function of so pending confirmation.
 
-(7) dijohua suse susejohua
-    chinese.person speak chinese.language
+(7) dijohua susejohua suse
+    chinese.person chinese.language speak
     『華人說華語。』
-    Pins: suse functions as a transitive verb 'speak (a language)'.
+    Pins: SOV with a language-name object.
 
 (8) dita sa diwoza
     3SG COP priest
     『她是一位祭司。』
-    Pins: 3rd-person dita covers any gender.
+    Tests: same as (1); dita covers any gender.
 
-(9) diwoza kabu fowu yoki
-    priest create clothes yellow
+(9) diwoza fowu yoki kabu
+    priest clothes yellow create
     『祭司創造黃色的衣服。』
-    Pins: attributive adjectives follow the noun (head-initial NP). Contrast with (4): same surface order, different structure.
+    Pins: attributive adjective follows its head noun inside the object NP (confirmed).
 
 (10) dibi sa difu de disamu
      1SG COP person of king
      『我是王的人。』
-     Pins: possessee de possessor serves as an adnominal genitive phrase.
+     Pins: a de-phrase serves as a nominal modifier inside a copular clause.
 
-(11) difu bu kabu woza        [draft: bu not yet adopted]
-     person not create magic
+(11) difu bu woza kabu        [draft: bu not yet adopted; its placement is unsettled]
+     person not magic create
      『人不創造魔法。』
-     Pins: negation is preverbal.
+     Tests: negation placement (shown preverbal only as a hypothesis to check).
 
-(12) dihe hufu si mahasamu?   [draft: dihe not yet adopted]
-     who sleep at capital
-     『誰睡在首都？』
-     Pins: content-question words appear in situ.
-
-(13) difu sa dikabu ya?       [draft: tag-particle use of ya not yet decided]
-     person COP god correct
-     『人是神，對吧？』
-     Pins: polar questions use sentence-final ya as a tag.
-
-## Abbreviations
-
-Leipzig standard; extend as needed: COP copula, 1/2/3 first/second/third person, SG singular, PL plural, NOM nominative, ACC accusative, GEN genitive, DAT dative, PRS present, PST past, FUT future, IPFV imperfective, PFV perfective, PASS passive.
+(12) dihe si mahasamu hufu?   [draft: dihe not yet adopted]
+     who at capital sleep
+     『誰在首都睡覺？』
+     Tests: content-question words in situ.

@@ -1,40 +1,31 @@
 # Syntax
 
-> Claim tags: **(attested)** / **(proposed)** / **(draft)** — see phonology.md. Probe numbers refer to `examples.md`.
+> Claim tags: **confirmed** (owner decision) / **(attested)** / **open** (undecided — do not fill in by invention). Probe numbers refer to `examples.md`.
 
 ## Clause
 
-- Basic order: **SVO** (proposed — probes 2, 7). Consistent with head-initial compounding (morphology.md): heads precede their dependents at every level.
-- Copular clause: X **sa** Y 'X is Y' (sa attested as copula; probes 1, 8).
-- Adjectival predicate: bare adjective after the subject, no copula (proposed — probe 4).
-- Negation (draft, unadopted): preverbal bu — difu bu kabu woza 'the person does not create magic' (probe 11).
-- Content questions (draft, unadopted): -he interrogatives in situ — dihe hufu si mahasamu? 'who sleeps in the capital?' (probe 12).
-- Polar questions: no attested strategy. Working proposal: sentence-final ya (the 'correct' particle) as a tag — difu sa dikabu ya? 'the person is a god, right?' (probe 13). Needs owner decision.
-
-## Possession
-
-- Predicative: X **de** Y 'X belongs to Y' (attested gloss; probe 3).
-- Adnominal genitive (proposed — probe 10): possessee de possessor acts as a modifier phrase: difu de disamu 'the king's person'.
-
-## Obliques
-
-- **si** — the default preposition of declarative clauses: location 'at/in' (probe 5); plausibly the marker of all non-core obliques (instrument, companion) (proposed).
-- **so** — introduces the agent in passive-like clauses; the verb remains bare (probe 6; no passive morphology attested).
-- Oblique phrases follow the verb (proposed — probe 5).
+- Basic order: **SOV** — the object precedes the verb (confirmed, 2026-11-08; probes 2, 7, 9).
+- sa is the copula (attested gloss). Its position relative to the predicate: open (probes 1, 8 assume it directly links subject and predicate).
+- Whether a bare adjective can predicate without a copula: open (probe 4 — the string is ambiguous with the postnominal-Adjective reading).
+- Negation: open. A negator bu exists as a draft in swadesh-drafts.md but is unadopted; its placement is unknown (probe 11).
+- Questions: open. No strategy attested or decided; draft interrogatives (-he) exist but are unadopted (probe 12).
+- Tense/aspect: no morphology attested; how time is expressed is open.
 
 ## Noun phrase
 
-- Head-initial, matching compounding: modifiers follow the noun (proposed):
-  - adjective: fowu yoki 'yellow clothes' (probe 9)
-  - genitive phrase: difu de disamu 'the king's person' (probe 10)
-  - demonstratives ki/ko (draft, unadopted): proposed postnominal, following adjectives
-  - numerals/quantifiers (draft, unadopted): proposed postnominal
-- Note the diagnostic pair: probe (4) fowu yoki 'the clothes are yellow' (clause: subject + predicate adjective) vs probe (9) diwoza kabu fowu yoki 'the priest makes yellow clothes' (NP inside the object). Same surface order, different structure.
+- Attributive adjectives follow their head noun (confirmed, 2026-11-08; probes 4, 9).
+- **de** = 'of': [N de X] links the noun to its possessor/source (confirmed, 2026-11-08; probes 3, 10). Example: yikawoza de disamu 'the staff of the king'.
+- Demonstratives, numerals, quantifiers: open (draft words exist in swadesh-drafts.md, unadopted; positions undetermined).
+
+## si and so
+
+- si — attested gloss: 'preposition used in regular/declarative sentences'. What it marks, and where its phrase sits in the clause: open (probe 5 tests position only).
+- so — attested gloss: 'preposition used in passive sentences'. Working reading: it introduces the agent of a passive-like clause with a bare, clause-final verb (probe 6). Confirmation pending.
 
 ## Clause combining
 
-- Nothing attested. Draft words exist (ka 'and', ma 'if', go 'because'); coordination and subordination strategies will be drafted after their adoption.
+- Open. Draft connectives (ka 'and', ma 'if', go 'because') exist in swadesh-drafts.md but are unadopted.
 
-## Probe sentence index
+## Rule
 
-`examples.md` — (1)–(10) use only attested words; (11)–(13) use draft words and are valid only after adoption.
+Undecided points stay marked open until the owner decides. Nothing in this file may be filled in by invention.

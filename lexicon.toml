@@ -123,9 +123,9 @@ etym = "(root)"
 [[word]]
 id = 14
 word = "de"
-pos = "verb"
-en = "to belong (to)"
-zh = "屬於"
+pos = "preposition"
+en = "of (links a thing to what it belongs to)"
+zh = "……的（表所屬）"
 etym = "(root)"
 
 [[word]]

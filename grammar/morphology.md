@@ -29,20 +29,20 @@ Further examples:
 - mahasamu = maha 'place' + samu → 'place of power' = the capital
 - mahagogafu = maha + [goga + fu] → 'place of the evil-domain' = the central prison (left-branching head-initial nesting)
 
-Verbal compound: wozakabu = woza 'magic' + kabu 'creation' → 'creation of magic', used as a verb by zero-conversion (see below).
+Verbal compound: wozakabu = woza 'magic' + kabu 'creation' → 'creation of magic'. The object–head order matches SOV clauses; it is used as a verb by zero-conversion (see below).
 
 ## Derivational devices
 
 - `di-` person/agent **prefix** (attested, 7 words): dikabu 'god', didabu 'worker', disamu 'king', dijohua 'Chinese person', diwota 'outsider', diwoza 'priest', digoga 'criminal'. Attaches to nouns and to adjectives (digoga, diwota) with the reading 'person characterized by X'. The only prefix in the language.
 - V↔N zero-conversion (attested): suse 'speak / speech', kabu 'create / creation, thing', dabu 'work / labor'.
 - `-we` as second element is the root **we 'flow'** (draft hypothesis from swadesh-drafts.md; fits all three -we words as a following modifier, consistent with head-initial compounding).
-- `-fu` as second element (attested in susefu, kabufu, gogafu-within-mahagogafu; meaning unresolved): working hypothesis **(proposed)** — fu = 'realm, domain'. susefu 'speech-domain' = language, kabufu 'creation-domain' = world, gogafu 'evil-domain'.
+- `-fu` as second element (attested in susefu, kabufu, gogafu-within-mahagogafu): **fu = 'collection (of X)'** (confirmed, 2026-11-08). susefu 'collection of speech' = language, kabufu 'collection of creations' = world, gogafu 'collection of evil (things)'.
 - Color terms: yoki 'yellow' is the only attested color word; the `-ki` color-suffix analysis is a draft (swadesh-drafts.md), unadopted.
 
 ## What the language lacks (attested absences; proposed as systematic)
 
 - No number marking: nouns are number-ambiguous; pronouns cover all numbers (diya 'you (sg/pl)', dita 'he/she/it/they').
-- No tense/aspect inflection: time comes from context or adverbial phrases (proposed).
+- No tense/aspect inflection attested; how time is expressed is open.
 - No case affixes: core relations are carried by word order; obliques by si/so; possession by de.
 
 ## Inflection
