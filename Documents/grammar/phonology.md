@@ -9,7 +9,7 @@
 
 ## Phonotactics
 
-- Draft syllable template (C)V — proposed in Documents/swadesh-duibi.md, to be confirmed
+- Draft syllable template (C)V — proposed in Documents/swadesh-drafts.md, to be confirmed
 - Permitted onsets / codas:
 
 ## Stress and alternations

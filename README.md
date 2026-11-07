@@ -1,19 +1,21 @@
-# susedifu 笛芙語
+# susedifu
 
-susedifu（笛芙語）是一門原創語言，意為「人的語言」（suse 話語 + difu 人），配有自創文字字體。
+susedifu is a constructed language, the 'language of the people' (suse 'speech' + difu 'person'), with a custom script font.
 
-## 語言特點
+## Language highlights
 
-- **黏著構詞**：由基礎詞根複合派生新詞
-  - `hosi`（空氣）+ `we` → `hosiwe`（風）
-  - `suse`（話語）+ `difu`（人）→ `susedifu`（笛芙語）
-  - `di-` 表示「人」：`dikabu`（造物主／神明）、`didabu`（勞動者）、`dijohua`（華人）
-- **架空世界觀**：詞彙帶有笛芙人世界的設定——魔法（woza）、魔力容器（dukawoza）、王（yikasamu）、首都瑪哈撒姆（mahasamu）等
+- **Agglutinative morphology** — new words derive from basic roots by compounding:
+  - `hosi` (air) + `we` → `hosiwe` (wind)
+  - `suse` (speech) + `difu` (person) → `susedifu` (the language's own name)
+  - `di-` marks person: `dikabu` (creator / god), `didabu` (worker), `dijohua` (Chinese person)
+- **A fictional world** — the vocabulary carries the Difu people's world setting: magic (woza), the magic-storing organ (dukawoza), the king (yikasamu), the capital Mahasamu (mahasamu), and more
 
-## 倉庫內容
+## Repository layout
 
-| 路徑 | 說明 |
+| Path | Description |
 | --- | --- |
-| `Documents/words.ods` | 詞彙表（64 個基礎詞條，拉丁字母 + 中文釋義） |
-| `Fonts/susedifu.ttf` | 自創文字字體 |
-| `Fonts/susedifu.svg` | 字體 SVG 版 |
+| `Documents/words.toml` | The lexicon — 64 base entries; the single source of truth for words and etymology |
+| `Documents/grammar/` | Grammar docs: phonology, morphology, syntax, and a regression corpus of examples |
+| `Documents/swadesh-drafts.md` | Swadesh 207-item comparison with new-word drafts |
+| `Fonts/susedifu.ttf` | The custom script font |
+| `Fonts/susedifu.svg` | SVG version of the font |

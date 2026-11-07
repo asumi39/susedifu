@@ -1,21 +1,21 @@
 # AGENTS.md
 
-本倉庫是原創語言 susedifu（笛芙語）的資料庫，只有文件與字體，沒有程式碼：無 build／test／lint，改動後靠內容一致性檢查。
+This repository is the database of susedifu, a constructed language. It holds documents and fonts only, no code: no build, test, or lint. After changes, rely on content-consistency checks.
 
-## 語言要點
+## Language essentials
 
-- susedifu 意為「人的語言」：suse（話語）+ difu（人）
-- 黏著構詞，新詞由詞根複合派生：`hosiwe` = hosi（空氣）+ we；`di-` 表人（dikabu 神、didabu 勞動者）
-- 詞形一律小寫拉丁字母、無空格；架空世界觀詞彙（woza 魔法、mahasamu 首都）須保持同一設定風格
+- susedifu means 'language of the people': suse ('speech') + difu ('person')
+- Agglutinative morphology; new words derive from root compounding: `hosiwe` = hosi ('air') + we; `di-` marks person (dikabu 'god', didabu 'worker')
+- Word forms are lowercase Latin letters without spaces; fictional-world vocabulary (woza 'magic', mahasamu 'capital') must keep a consistent setting style
 
-## 檔案
+## Files
 
-- `Documents/words.toml` — 詞彙表（64 條），詞源的唯一事實來源；一詞一段（`[[word]]`），欄位說明見檔頭註解
-- `Documents/swadesh-duibi.md` — Swadesh 207 詞對照與新詞草案（草案欄可改可棄，採納後才寫入 words.toml）
-- `Documents/grammar/` — 語法文檔：phonology／morphology／syntax／examples；examples 為語法改動的回歸錨點
-- `Fonts/susedifu.ttf`、`Fonts/susedifu.svg` — 自創文字字體，非必要不修改
+- `Documents/words.toml` — the lexicon (64 entries), the single source of truth for etymology; one `[[word]]` block per entry, field reference in the header comment
+- `Documents/swadesh-drafts.md` — Swadesh 207-item comparison and new-word drafts (drafts are tentative and may be edited or rejected; adopt into words.toml only after approval)
+- `Documents/grammar/` — grammar docs: phonology / morphology / syntax / examples; examples is the regression anchor for grammar changes
+- `Fonts/susedifu.ttf`, `Fonts/susedifu.svg` — the custom script font; do not modify unless necessary
 
-## 慣例
+## Conventions
 
-- 倉庫元文檔（本檔）與對話用繁體中文；語言內容（words.toml、grammar/）一律英文，術語與標注縮寫採萊比錫慣例（Leipzig Glossing Rules），詞表保留 `zh` 欄對照原始中文釋義
-- 直接 commit 到 `main` 並 push，無 PR 流程
+- All repository content — this file included — is written in English; terminology and gloss abbreviations follow the Leipzig Glossing Rules. The `zh` fields/columns keep the original Chinese glosses as reference data. Conversation with the owner stays Traditional Chinese.
+- Commit directly to `main` and push; no PR process.
