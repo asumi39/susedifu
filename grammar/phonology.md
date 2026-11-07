@@ -19,6 +19,12 @@
 
 - Stress: undetermined — nothing in the lexicon bears on it. Do not assume a default when describing new words.
 
+## Loanword adaptation
+
+- l → d (attested twice): dati < 拉丁 lādīng, dodi < 蘿莉 luólì — l is absent from the inventory
+- Nasal codas of the source are dropped: dati < lādīng (ding → ti), johua < Zhōnghuá (zhong → jo)
+- j exists only as loanword output (attested)
+
 ## Notes
 
 - The profile — small inventory, strict (C)V, no codas — matches the draft constraints in swadesh-drafts.md; all 183 draft words comply (see its Appendix II).

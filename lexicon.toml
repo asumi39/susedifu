@@ -391,7 +391,7 @@ etym = "(root)"
 id = 47
 word = "yoki"
 pos = "adjective"
-en = "yellow; yellow (adjective)"
+en = "yellow"
 zh = "黃色；黃色的"
 etym = "(root)"
 
@@ -513,7 +513,7 @@ etym = "maha + samu"
 id = 62
 word = "mahagogafu"
 pos = "proper noun"
-en = "Mahagogafu (the central prison); lit. 'place full of evil'"
+en = "Mahagogafu (the central prison); lit. 'place of the evil-collection'"
 zh = "瑪哈貢嘎芙（中央監獄）；充滿邪惡之地"
 etym = "maha + goga + fu"
 
