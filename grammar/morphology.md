@@ -39,7 +39,7 @@ Verbal compound: wozakabu = woza 'magic' + kabu 'creation' → 'creation of magi
 - V↔N zero-conversion (attested): suse 'speak / speech', kabu 'create / creation, thing', dabu 'work / labor'.
 - `-we` as second element = clipped weru 'water' (see clipping), modifier 'fluid/flow of X': hosiwe 'the air's water' = wind, zijawe 'the lightning's water' = electric current, susewe 'the speech's water' = sentence.
 - `-fu` as second element (attested in susefu, kabufu, gogafu-within-mahagogafu): **fu = 'collection (of X)'** (confirmed, 2026-11-08). susefu 'collection of speech' = language, kabufu 'collection of creations' = world, gogafu 'collection of evil (things)'.
-- Color terms: yoki 'yellow' is the only attested color word; the `-ki` color-suffix analysis is a draft (swadesh-drafts.md), unadopted.
+- Color terms: yoki 'yellow' is the only attested color word; the draft color words merely imitate its shape — no color suffix is claimed (swadesh-drafts.md)
 
 ## What the language lacks (attested absences; proposed as systematic)
 

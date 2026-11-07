@@ -8,7 +8,7 @@
 - sa is the copula (attested gloss). Its position relative to the predicate: open (probes 1, 8 assume it directly links subject and predicate).
 - Whether a bare adjective can predicate without a copula: open (probe 4 — the string is ambiguous with the postnominal-Adjective reading).
 - Negation: open. A negator bu exists as a draft in swadesh-drafts.md but is unadopted; its placement is unknown (probe 11).
-- Questions: open. No strategy attested or decided; draft interrogatives (-he) exist but are unadopted (probe 12).
+- Questions: open. No strategy attested or decided; draft interrogative words (dihe, kihe, mahahe, wuhe, zohe) exist in swadesh-drafts.md but are unadopted (probe 12).
 - Tense/aspect: no morphology attested; how time is expressed is open.
 
 ## Noun phrase

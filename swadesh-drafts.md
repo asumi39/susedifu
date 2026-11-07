@@ -22,9 +22,9 @@ Only 24 of the 207 items have existing words to build on; the remaining 183 all 
   - `-we` — the clipped form of weru 'water' (confirmed 2026-11-08; an earlier draft read it as an independent root 'flow'): hosiwe 'the air's water' = wind, zijawe 'electric current', susewe 'sentence'
   - `maha-` place of: mahasamu 'capital' (place of power), mahagogafu 'prison' (place of the evil-collection)
   - Compounds are head-initial (the head comes first): wozahosiwe = woza + hosiwe 'wind magic', yikakada = yika + kada, dukawoza = duka + woza
-  - Color terms: only `yoki` 'yellow' exists; drafts imitate its form with a `-ki` color suffix (speculative, awaiting more evidence)
+  - Color drafts roki 'red', seki 'green', faki 'white', daki 'black' merely imitate the shape of yoki 'yellow'; no `-ki` morpheme is claimed
 - Draft phonological constraint: only sounds attested in existing words (vowels a e i o u; consonants b d f g h k m r s t w y z); syllables strictly (C)V
-- Interrogatives uniformly end in `-he`: dihe 'who', kihe 'what', mahahe 'where', wuhe 'when', zohe 'how'
+- Interrogative drafts: dihe 'who', kihe 'what', mahahe 'where', wuhe 'when', zohe 'how' (bare proposals; no suffix is claimed)
 - Numerals form a monosyllabic set: tu 'one', ga 'two', mi 'three', su 'four', ro 'five'
 - Some near-synonyms are deliberate minimal pairs (in the style of dima/diba, diya/dita):
   redu 'river' / redo 'lake' / rebu 'sea', kibo 'new' / kifo 'old', kize 'near' / koze 'far', yode 'left' / yodo 'right', toka 'foot' / tuga 'leg' / kuto 'knee', wika 'wide' / wigi 'narrow', tibi 'small' / tibo 'short', kizo 'sharp' / kodo 'dull', hago 'warm' / higo 'cold'
@@ -45,11 +45,11 @@ Only 24 of the 207 items have existing words to build on; the remaining 183 all 
 | 8 | that | 那 | ⬜ | ko | pairs with ki |
 | 9 | here | 這裡 | ⬜ | mahaki | maha + ki ('place of this') |
 | 10 | there | 那裡 | ⬜ | mahako | maha + ko |
-| 11 | who | 誰 | ⬜ | dihe | di ('person') + he ('interrogative') |
-| 12 | what | 什麼 | ⬜ | kihe | interrogative suffix -he |
-| 13 | where | 哪裡 | ⬜ | mahahe | maha + he |
-| 14 | when | 何時 | ⬜ | wuhe | draft also posits root wu = 'time' (see 177–179) |
-| 15 | how | 如何 | ⬜ | zohe | -he interrogative |
+| 11 | who | 誰 | ⬜ | dihe | |
+| 12 | what | 什麼 | ⬜ | kihe | |
+| 13 | where | 哪裡 | ⬜ | mahahe | |
+| 14 | when | 何時 | ⬜ | wuhe | |
+| 15 | how | 如何 | ⬜ | zohe | |
 | 16 | not | 不 | ⬜ | bu | |
 | 17 | all | 全部 | ⬜ | fanu | |
 | 18 | many | 多 | ⬜ | dawa | |
@@ -112,7 +112,7 @@ Only 24 of the 207 items have existing words to build on; the remaining 183 all 
 | 55 | seed | 種子 | ⬜ | fazu | |
 | 56 | leaf | 葉 | ⬜ | zema | |
 | 57 | root | 根 | ⬜ | ruka | |
-| 58 | bark | 樹皮 | ⬜ | kadafe | kada + fe ('skin/hull') |
+| 58 | bark | 樹皮 | ⬜ | kadafe | |
 | 59 | flower | 花 | ⬜ | hafi | |
 | 60 | grass | 草 | ⬜ | seka | |
 | 61 | rope | 繩 | ⬜ | tari | family with taru 'pull' |
@@ -251,7 +251,7 @@ Only 24 of the 207 items have existing words to build on; the remaining 183 all 
 | 174 | yellow | 黃 | ✅ yoki | — | the only color word in the current lexicon |
 | 175 | white | 白 | ⬜ | faki | same as above |
 | 176 | black | 黑 | ⬜ | daki | same as above |
-| 177 | night | 夜晚 | ⬜ | wumo | wu 'time' family: wuhe/wufa/wumo/wuko |
+| 177 | night | 夜晚 | ⬜ | wumo | drafted alongside wufa 'day' and wuko 'year' (sound-family only) |
 | 178 | day | 白天 | ⬜ | wufa | |
 | 179 | year | 年 | ⬜ | wuko | |
 | 180 | warm | 溫暖 | ⬜ | hago | pairs with higo 'cold' |
