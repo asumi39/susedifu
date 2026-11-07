@@ -21,7 +21,7 @@ This repository is the database of susedifu, a constructed language. It holds do
 1. Every word cited in `grammar/` or `swadesh-drafts.md` exists in `lexicon.toml` (or is clearly marked as a draft).
 2. No duplicate word forms in `lexicon.toml`, except attested homonyms (sa, entries 19/20).
 3. Every `etym` decomposition matches an attested derivational pattern in `grammar/morphology.md`; new patterns need owner approval.
-4. Word forms are lowercase Latin without spaces and use only attested phonemes (vowels a e i o u; consonants b d f g h k m r s t w y z; j only in the loanword johua).
+4. Word forms are lowercase Latin without spaces and use only attested phonemes (vowels a e i o u; consonants b d f g h k m r s t w y z; j only in the johua family, i.e. the loanword and its derivatives).
 5. Drafts never enter `lexicon.toml` silently; grammar docs never duplicate the root inventory.
 6. After any grammar change, re-check every sentence in `grammar/examples.md` against the new rules.
 
