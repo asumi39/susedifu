@@ -2,7 +2,7 @@
 
 This file anchors consistency: after any change to the grammar or the lexicon, re-check every example below against the new state.
 
-Sentences (1)–(8) are probe sentences seeded on 2026-11-07: each pins one syntactic decision that the lexicon leaves open. They encode the agent's working hypotheses and are pending owner confirmation; once confirmed, they become fixed anchors.
+Sentences (1)–(10) use only attested lexicon words; (11)–(13) use draft words (swadesh-drafts.md) and become valid only after their adoption. All encode the agent's working hypotheses pending owner confirmation; once confirmed, they become fixed anchors.
 
 Lexicalized compounds (e.g. yikawoza) are glossed as single tokens; morpheme-level analysis lives in morphology.md.
 
@@ -47,6 +47,31 @@ Lexicalized compounds (e.g. yikawoza) are glossed as single tokens; morpheme-lev
     3SG COP priest
     『她是一位祭司。』
     Pins: 3rd-person dita covers any gender.
+
+(9) diwoza kabu fowu yoki
+    priest create clothes yellow
+    『祭司創造黃色的衣服。』
+    Pins: attributive adjectives follow the noun (head-initial NP). Contrast with (4): same surface order, different structure.
+
+(10) dibi sa difu de disamu
+     1SG COP person of king
+     『我是王的人。』
+     Pins: possessee de possessor serves as an adnominal genitive phrase.
+
+(11) difu bu kabu woza        [draft: bu not yet adopted]
+     person not create magic
+     『人不創造魔法。』
+     Pins: negation is preverbal.
+
+(12) dihe hufu si mahasamu?   [draft: dihe not yet adopted]
+     who sleep at capital
+     『誰睡在首都？』
+     Pins: content-question words appear in situ.
+
+(13) difu sa dikabu ya?       [draft: tag-particle use of ya not yet decided]
+     person COP god correct
+     『人是神，對吧？』
+     Pins: polar questions use sentence-final ya as a tag.
 
 ## Abbreviations
 
