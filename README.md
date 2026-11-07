@@ -14,7 +14,7 @@ susedifu is a constructed language, the 'language of the people' (suse 'speech' 
 
 | Path | Description |
 | --- | --- |
-| `lexicon.toml` | The lexicon — 64 base entries; the single source of truth for words and etymology |
+| `lexicon.toml` | The lexicon — 68 entries (64 base + 4 bound morphemes), grouped by semantic field; the single source of truth for words and etymology |
 | `grammar/` | Grammar docs: phonology, morphology, syntax, and a regression corpus of example sentences |
 | `swadesh-drafts.md` | Swadesh 207-item comparison with new-word drafts |
 | `fonts/` | The custom script font (TTF + SVG) |

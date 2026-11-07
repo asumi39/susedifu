@@ -3,9 +3,13 @@
 # pos and etym were drafted by the agent on 2026-11-07 and are pending owner review.
 # Entries with id ≥ 65 were added after the ODS migration (bound morphemes, owner-approved 2026-11-08).
 #
-# One [[word]] block per entry, ordered by id (the original ODS row number).
+# Entries are grouped into semantic sections (marked by comment banners); within a
+# section, a root is followed by its derivatives. `id` preserves the original ODS
+# row number — it is provenance only, NOT the file order.
+#
+# One [[word]] block per entry.
 # Fields:
-#   id      — original ODS row number
+#   id      — original ODS row number (provenance)
 #   word    — word form (lowercase Latin, no spaces)
 #   pos     — part of speech (';' separates senses)
 #   en      — English gloss (primary; drafted by the agent, pending owner review)
@@ -17,6 +21,46 @@
 # The original ODS had one unlabeled row above the table: "susedifu | dati | johua" —
 # likely a legend; kept here until the owner clarifies it.
 
+# ────────────────────────────── 1 · Bound morphemes ──────────────────────────────
+
+[[word]]
+id = 67
+word = "ma"
+pos = "bound morpheme"
+en = "female (gender morpheme; clipped from mama)"
+zh = "女（mama 的略縮詞素，僅見於複合詞）"
+etym = "mama (clipped)"
+note = "attested in dima = di + ma"
+
+[[word]]
+id = 68
+word = "ba"
+pos = "bound morpheme"
+en = "male (gender morpheme; clipped from baba)"
+zh = "男（baba 的略縮詞素，僅見於複合詞）"
+etym = "baba (clipped)"
+note = "attested in diba = di + ba"
+
+[[word]]
+id = 65
+word = "we"
+pos = "bound morpheme"
+en = "fluid, flow (clipped form of weru; compounds only)"
+zh = "流（weru 的略縮形，僅見於複合詞）"
+etym = "weru (clipped)"
+note = "attested only as the second element: hosiwe, zijawe, susewe"
+
+[[word]]
+id = 66
+word = "fu"
+pos = "bound morpheme"
+en = "collection (of X; compounds only)"
+zh = "集合（……之集，僅見於複合詞）"
+etym = "(root)"
+note = "attested only as the second element: susefu, kabufu, gogafu"
+
+# ────────────────────────────── 2 · Nature & space ──────────────────────────────
+
 [[word]]
 id = 1
 word = "zija"
@@ -26,19 +70,19 @@ zh = "雷電"
 etym = "(root)"
 
 [[word]]
+id = 5
+word = "zijawe"
+pos = "noun"
+en = "electric current"
+zh = "電流"
+etym = "zija + we"
+
+[[word]]
 id = 2
 word = "hosi"
 pos = "noun"
 en = "air; gaseous substance"
 zh = "空氣；氣態物質"
-etym = "(root)"
-
-[[word]]
-id = 3
-word = "weru"
-pos = "noun"
-en = "water; something in a flowing state"
-zh = "水；流動態的"
 etym = "(root)"
 
 [[word]]
@@ -50,12 +94,38 @@ zh = "風"
 etym = "hosi + we"
 
 [[word]]
-id = 5
-word = "zijawe"
+id = 3
+word = "weru"
 pos = "noun"
-en = "electric current"
-zh = "電流"
-etym = "zija + we"
+en = "water; something in a flowing state"
+zh = "水；流動態的"
+etym = "(root)"
+
+[[word]]
+id = 16
+word = "kada"
+pos = "noun"
+en = "tree"
+zh = "樹木"
+etym = "(root)"
+
+[[word]]
+id = 41
+word = "yikakada"
+pos = "noun"
+en = "(tree) branch"
+zh = "樹枝"
+etym = "yika + kada"
+
+[[word]]
+id = 60
+word = "maha"
+pos = "noun"
+en = "place, location"
+zh = "地點；地方"
+etym = "(root)"
+
+# ────────────────────────────── 3 · People & kinship ──────────────────────────────
 
 [[word]]
 id = 6
@@ -100,6 +170,24 @@ zh = "人"
 etym = "(root)"
 
 [[word]]
+id = 30
+word = "didabu"
+pos = "noun"
+en = "worker, laborer"
+zh = "勞動者；工作者；工人"
+etym = "di + dabu"
+
+[[word]]
+id = 63
+word = "dodi"
+pos = "noun"
+en = "loli (young girl)"
+zh = "蘿莉"
+etym = "(root)"
+
+# ────────────────────────────── 4 · Pronouns ──────────────────────────────
+
+[[word]]
 id = 11
 word = "dibi"
 pos = "pronoun"
@@ -123,13 +211,7 @@ en = "he/she/it; they (3rd person)"
 zh = "他；她；它；他們；她們；它們"
 etym = "(root)"
 
-[[word]]
-id = 14
-word = "de"
-pos = "preposition"
-en = "of (links a thing to what it belongs to)"
-zh = "……的（表所屬）"
-etym = "(root)"
+# ────────────────────────────── 5 · Speech & language ──────────────────────────────
 
 [[word]]
 id = 15
@@ -140,12 +222,12 @@ zh = "說；話語"
 etym = "(root)"
 
 [[word]]
-id = 16
-word = "kada"
+id = 28
+word = "susewe"
 pos = "noun"
-en = "tree"
-zh = "樹木"
-etym = "(root)"
+en = "sentence (flow of speech)"
+zh = "句子（語流）"
+etym = "suse + we"
 
 [[word]]
 id = 17
@@ -162,6 +244,118 @@ pos = "proper noun"
 en = "Susedifu (this language; lit. 'language of the people')"
 zh = "笛芙語（意譯：人的語言）"
 etym = "suse + difu"
+
+# ────────────────────────────── 6 · Creation & abstraction ──────────────────────────────
+
+[[word]]
+id = 23
+word = "kabu"
+pos = "verb; noun"
+en = "creation; to create; object, thing"
+zh = "創造；造物；物體；物品"
+etym = "(root)"
+
+[[word]]
+id = 54
+word = "kabufu"
+pos = "noun"
+en = "world; planet Kabufu"
+zh = "世界；卡布芙星"
+etym = "kabu + fu"
+
+# ────────────────────────────── 7 · Daily life ──────────────────────────────
+
+[[word]]
+id = 27
+word = "hufu"
+pos = "verb"
+en = "to sleep"
+zh = "睡"
+etym = "(root)"
+
+[[word]]
+id = 29
+word = "dabu"
+pos = "verb; noun"
+en = "labor; work"
+zh = "勞動；工作"
+etym = "(root)"
+
+[[word]]
+id = 46
+word = "fowu"
+pos = "noun"
+en = "clothes, clothing"
+zh = "衣服"
+etym = "(root)"
+
+[[word]]
+id = 33
+word = "duka"
+pos = "noun"
+en = "container, vessel (any container)"
+zh = "容器（可泛指一切容器）"
+etym = "(root)"
+
+[[word]]
+id = 39
+word = "yika"
+pos = "noun"
+en = "stick, rod, staff"
+zh = "棒子；棍子；手杖"
+etym = "(root)"
+
+# ────────────────────────────── 8 · Qualities & character ──────────────────────────────
+
+[[word]]
+id = 47
+word = "yoki"
+pos = "adjective"
+en = "yellow"
+zh = "黃色；黃色的"
+etym = "(root)"
+
+[[word]]
+id = 55
+word = "wota"
+pos = "adjective"
+en = "outer, external; foreign"
+zh = "外面的；外界的；外來的"
+etym = "(root)"
+
+[[word]]
+id = 56
+word = "diwota"
+pos = "noun"
+en = "outsider, foreigner"
+zh = "外來者；笛沃塔"
+etym = "di + wota"
+
+[[word]]
+id = 58
+word = "goga"
+pos = "adjective"
+en = "evil, vicious; criminal"
+zh = "惡毒的；邪惡的；犯罪的"
+etym = "(root)"
+
+[[word]]
+id = 59
+word = "digoga"
+pos = "noun"
+en = "criminal; evildoer; devil"
+zh = "罪犯；惡人；魔鬼"
+etym = "di + goga"
+
+# ────────────────────────────── 9 · Function words ──────────────────────────────
+
+[[word]]
+id = 14
+word = "de"
+pos = "preposition"
+en = "of (links a thing to what it belongs to)"
+zh = "……的（表所屬）"
+etym = "(root)"
 
 [[word]]
 id = 19
@@ -196,70 +390,7 @@ en = "(preposition; passive-clause form — one preposition with si, voice-condi
 zh = "介詞：被動句用形；與 si 同為一介詞的語態變體"
 etym = "(root)"
 
-[[word]]
-id = 23
-word = "kabu"
-pos = "verb; noun"
-en = "creation; to create; object, thing"
-zh = "創造；造物；物體；物品"
-etym = "(root)"
-
-[[word]]
-id = 24
-word = "dati"
-pos = "proper noun"
-en = "Latin"
-zh = "拉丁"
-etym = "(root)"
-note = "loanword for 'Latin'"
-
-[[word]]
-id = 25
-word = "dikabu"
-pos = "noun"
-en = "god; creator"
-zh = "神明；造物主；創造者"
-etym = "di + kabu"
-
-[[word]]
-id = 26
-word = "susedikabu"
-pos = "noun"
-en = "oracle (divine utterance)"
-zh = "神諭"
-etym = "suse + di + kabu"
-
-[[word]]
-id = 27
-word = "hufu"
-pos = "verb"
-en = "to sleep"
-zh = "睡"
-etym = "(root)"
-
-[[word]]
-id = 28
-word = "susewe"
-pos = "noun"
-en = "sentence (flow of speech)"
-zh = "句子（語流）"
-etym = "suse + we"
-
-[[word]]
-id = 29
-word = "dabu"
-pos = "verb; noun"
-en = "labor; work"
-zh = "勞動；工作"
-etym = "(root)"
-
-[[word]]
-id = 30
-word = "didabu"
-pos = "noun"
-en = "worker, laborer"
-zh = "勞動者；工作者；工人"
-etym = "di + dabu"
+# ────────────────────────────── 10 · The Difu world ──────────────────────────────
 
 [[word]]
 id = 31
@@ -268,30 +399,6 @@ pos = "noun"
 en = "magic; magical power; spell"
 zh = "魔法；魔力；法術"
 etym = "(root)"
-
-[[word]]
-id = 32
-word = "susewoza"
-pos = "noun"
-en = "incantation, magic formula"
-zh = "咒語"
-etym = "suse + woza"
-
-[[word]]
-id = 33
-word = "duka"
-pos = "noun"
-en = "container, vessel (any container)"
-zh = "容器（可泛指一切容器）"
-etym = "(root)"
-
-[[word]]
-id = 34
-word = "dukawoza"
-pos = "noun"
-en = "Dukawoza ('magic vessel') — a Difu organ for storing magical power"
-zh = "杜卡沃澤（魔力容器）（笛芙人儲存魔力的器官）"
-etym = "duka + woza"
 
 [[word]]
 id = 35
@@ -326,12 +433,28 @@ zh = "雷魔法"
 etym = "woza + zija"
 
 [[word]]
-id = 39
-word = "yika"
+id = 32
+word = "susewoza"
 pos = "noun"
-en = "stick, rod, staff"
-zh = "棒子；棍子；手杖"
-etym = "(root)"
+en = "incantation, magic formula"
+zh = "咒語"
+etym = "suse + woza"
+
+[[word]]
+id = 34
+word = "dukawoza"
+pos = "noun"
+en = "Dukawoza ('magic vessel') — a Difu organ for storing magical power"
+zh = "杜卡沃澤（魔力容器）（笛芙人儲存魔力的器官）"
+etym = "duka + woza"
+
+[[word]]
+id = 42
+word = "weruwoza"
+pos = "noun"
+en = "Weruwoza ('magic water') — used to replenish magical power"
+zh = "威露沃澤（魔水）（用於補充魔力）"
+etym = "weru + woza"
 
 [[word]]
 id = 40
@@ -342,20 +465,28 @@ zh = "魔杖；法杖"
 etym = "yika + woza"
 
 [[word]]
-id = 41
-word = "yikakada"
+id = 25
+word = "dikabu"
 pos = "noun"
-en = "(tree) branch"
-zh = "樹枝"
-etym = "yika + kada"
+en = "god; creator"
+zh = "神明；造物主；創造者"
+etym = "di + kabu"
 
 [[word]]
-id = 42
-word = "weruwoza"
+id = 26
+word = "susedikabu"
 pos = "noun"
-en = "Weruwoza ('magic water') — used to replenish magical power"
-zh = "威露沃澤（魔水）（用於補充魔力）"
-etym = "weru + woza"
+en = "oracle (divine utterance)"
+zh = "神諭"
+etym = "suse + di + kabu"
+
+[[word]]
+id = 57
+word = "diwoza"
+pos = "noun"
+en = "priest; mage, sorcerer"
+zh = "祭司；笛沃澤；魔法師；巫師"
+etym = "di + woza"
 
 [[word]]
 id = 43
@@ -383,20 +514,22 @@ zh = "王；笛撒姆（笛芙人之君王）"
 etym = "di + samu"
 
 [[word]]
-id = 46
-word = "fowu"
-pos = "noun"
-en = "clothes, clothing"
-zh = "衣服"
-etym = "(root)"
+id = 61
+word = "mahasamu"
+pos = "proper noun"
+en = "Mahasamu (the capital)"
+zh = "瑪哈撒姆（首都）"
+etym = "maha + samu"
 
 [[word]]
-id = 47
-word = "yoki"
-pos = "adjective"
-en = "yellow"
-zh = "黃色；黃色的"
-etym = "(root)"
+id = 62
+word = "mahagogafu"
+pos = "proper noun"
+en = "Mahagogafu (the central prison); lit. 'place of the evil-collection'"
+zh = "瑪哈貢嘎芙（中央監獄）；充滿邪惡之地"
+etym = "maha + goga + fu"
+
+# ────────────────────────────── 11 · Nations & names ──────────────────────────────
 
 [[word]]
 id = 48
@@ -449,86 +582,6 @@ zh = "日本人"
 etym = "di + tiho"
 
 [[word]]
-id = 54
-word = "kabufu"
-pos = "noun"
-en = "world; planet Kabufu"
-zh = "世界；卡布芙星"
-etym = "kabu + fu"
-
-[[word]]
-id = 55
-word = "wota"
-pos = "adjective"
-en = "outer, external; foreign"
-zh = "外面的；外界的；外來的"
-etym = "(root)"
-
-[[word]]
-id = 56
-word = "diwota"
-pos = "noun"
-en = "outsider, foreigner"
-zh = "外來者；笛沃塔"
-etym = "di + wota"
-
-[[word]]
-id = 57
-word = "diwoza"
-pos = "noun"
-en = "priest; mage, sorcerer"
-zh = "祭司；笛沃澤；魔法師；巫師"
-etym = "di + woza"
-
-[[word]]
-id = 58
-word = "goga"
-pos = "adjective"
-en = "evil, vicious; criminal"
-zh = "惡毒的；邪惡的；犯罪的"
-etym = "(root)"
-
-[[word]]
-id = 59
-word = "digoga"
-pos = "noun"
-en = "criminal; evildoer; devil"
-zh = "罪犯；惡人；魔鬼"
-etym = "di + goga"
-
-[[word]]
-id = 60
-word = "maha"
-pos = "noun"
-en = "place, location"
-zh = "地點；地方"
-etym = "(root)"
-
-[[word]]
-id = 61
-word = "mahasamu"
-pos = "proper noun"
-en = "Mahasamu (the capital)"
-zh = "瑪哈撒姆（首都）"
-etym = "maha + samu"
-
-[[word]]
-id = 62
-word = "mahagogafu"
-pos = "proper noun"
-en = "Mahagogafu (the central prison); lit. 'place of the evil-collection'"
-zh = "瑪哈貢嘎芙（中央監獄）；充滿邪惡之地"
-etym = "maha + goga + fu"
-
-[[word]]
-id = 63
-word = "dodi"
-pos = "noun"
-en = "loli (young girl)"
-zh = "蘿莉"
-etym = "(root)"
-
-[[word]]
 id = 64
 word = "roma"
 pos = "proper noun"
@@ -538,37 +591,10 @@ etym = "(root)"
 note = "loanword for Rome"
 
 [[word]]
-id = 65
-word = "we"
-pos = "bound morpheme"
-en = "fluid, flow (clipped form of weru; compounds only)"
-zh = "流（weru 的略縮形，僅見於複合詞）"
-etym = "weru (clipped)"
-note = "attested only as the second element: hosiwe, zijawe, susewe"
-
-[[word]]
-id = 66
-word = "fu"
-pos = "bound morpheme"
-en = "collection (of X; compounds only)"
-zh = "集合（……之集，僅見於複合詞）"
+id = 24
+word = "dati"
+pos = "proper noun"
+en = "Latin"
+zh = "拉丁"
 etym = "(root)"
-note = "attested only as the second element: susefu, kabufu, gogafu"
-
-[[word]]
-id = 67
-word = "ma"
-pos = "bound morpheme"
-en = "female (gender morpheme; clipped from mama)"
-zh = "女（mama 的略縮詞素，僅見於複合詞）"
-etym = "mama (clipped)"
-note = "attested in dima = di + ma"
-
-[[word]]
-id = 68
-word = "ba"
-pos = "bound morpheme"
-en = "male (gender morpheme; clipped from baba)"
-zh = "男（baba 的略縮詞素，僅見於複合詞）"
-etym = "baba (clipped)"
-note = "attested in diba = di + ba"
+note = "loanword for 'Latin'"

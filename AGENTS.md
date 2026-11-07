@@ -10,7 +10,7 @@ This repository is the database of susedifu, a constructed language. It holds do
 
 ## Files
 
-- `lexicon.toml` — the lexicon (64 entries), the single source of truth for words and etymology; one `[[word]]` block per entry, field reference in the header comment
+- `lexicon.toml` — the lexicon (68 entries: 64 from the original table + 4 bound morphemes), grouped into semantic sections with root families kept adjacent; the single source of truth for words and etymology; one `[[word]]` block per entry, field reference in the header comment
 - `grammar/` — phonology / morphology / syntax / examples; examples is the regression corpus of probe sentences
 - `swadesh-drafts.md` — Swadesh 207-item comparison and new-word drafts (tentative; adopt into lexicon.toml only after owner approval)
 - `fonts/susedifu.ttf`, `fonts/susedifu.svg` — the custom script font; do not modify unless necessary
