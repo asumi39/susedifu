@@ -2,7 +2,7 @@
 
 This file anchors consistency: after any change to the grammar or the lexicon, re-check every example below against the new state.
 
-Sentences (1)–(10) use only attested lexicon words; (11)–(12) use draft words (swadesh-drafts.md) and become valid only after their adoption. Confirmed facts (SOV order, postnominal adjectives, de 'of', fu 'collection') are owner decisions of 2026-11-08; probes marked open test points the owner has not yet decided.
+Sentences (1)–(10) use only attested lexicon words. Confirmed facts (SOV order, postnominal adjectives, de 'of', fu 'collection') are owner decisions of 2026-11-08; probes marked open test points the owner has not yet decided. Probes for negation and questions will be added once the owner supplies those words.
 
 Lexicalized compounds (e.g. yikawoza) are glossed as single tokens; morpheme-level analysis lives in morphology.md.
 
@@ -57,13 +57,3 @@ Lexicalized compounds (e.g. yikawoza) are glossed as single tokens; morpheme-lev
      1SG COP person of king
      『我是王的人。』
      Pins: a de-phrase serves as a nominal modifier inside a copular clause.
-
-(11) difu bu woza kabu        [draft: bu not yet adopted; its placement is unsettled]
-     person not magic create
-     『人不創造魔法。』
-     Tests: negation placement (shown preverbal only as a hypothesis to check).
-
-(12) dihe si mahasamu hufu?   [draft: dihe not yet adopted]
-     who at capital sleep
-     『誰在首都睡覺？』
-     Tests: content-question words in situ.

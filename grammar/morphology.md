@@ -39,7 +39,7 @@ Verbal compound: wozakabu = woza 'magic' + kabu 'creation' → 'creation of magi
 - V↔N zero-conversion (attested): suse 'speak / speech', kabu 'create / creation, thing', dabu 'work / labor'.
 - `-we` as second element = clipped weru 'water' (see clipping), modifier 'fluid/flow of X': hosiwe 'the air's water' = wind, zijawe 'the lightning's water' = electric current, susewe 'the speech's water' = sentence.
 - `-fu` as second element (attested in susefu, kabufu, gogafu-within-mahagogafu): **fu = 'collection (of X)'** (confirmed, 2026-11-08). susefu 'collection of speech' = language, kabufu 'collection of creations' = world, gogafu 'collection of evil (things)'.
-- Color terms: yoki 'yellow' is the only attested color word; the draft color words merely imitate its shape — no color suffix is claimed (swadesh-drafts.md)
+- Color terms: yoki 'yellow' is the only attested color word; no color-suffix pattern is confirmed.
 
 ## What the language lacks (attested absences; proposed as systematic)
 
@@ -51,6 +51,6 @@ Verbal compound: wozakabu = woza 'magic' + kabu 'creation' → 'creation of magi
 
 - None attested; none proposed.
 
-## Draft hypotheses pending adoption
+## Pending owner input
 
-Numerals (tu ga mi su ro), interrogatives in -he, demonstratives ki/ko, negator bu, conjunction ka, minimal-pair families — live in `swadesh-drafts.md`. Adopt into this file and `lexicon.toml` only after the owner approves.
+Slots for numerals, interrogatives, demonstratives, negators, connectives and the rest of the basic vocabulary are reserved in `swadesh-coverage.md` for the owner to fill manually. Nothing enters this file or `lexicon.toml` until the owner supplies it.

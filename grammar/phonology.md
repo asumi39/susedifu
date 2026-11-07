@@ -10,8 +10,8 @@
 
 ## Phonotactics
 
-- Syllable template: (C)V — attested across all 64 forms.
-- Words begin with a consonant and end with a vowel (attested: no vowel-initial or consonant-final form among the 64).
+- Syllable template: (C)V — attested across all 68 forms.
+- Words begin with a consonant and end with a vowel (attested: no vowel-initial or consonant-final form among the 68).
 - No consonant clusters, no geminates, no vowel hiatus (attested: no counterexamples).
 - j is restricted to the johua family (attested).
 
@@ -27,4 +27,4 @@
 
 ## Notes
 
-- The profile — small inventory, strict (C)V, no codas — matches the draft constraints in swadesh-drafts.md; all 183 draft words comply (see its Appendix II).
+- The profile — small inventory, strict (C)V, no codas — is the constraint set for all future words (see the checklist in swadesh-coverage.md).
