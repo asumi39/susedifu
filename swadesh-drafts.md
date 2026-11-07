@@ -2,7 +2,7 @@
 
 > Generated: 2026-11-07
 > Swadesh list source: Wiktionary, "Appendix: Mandarin Swadesh lists" (the standard 207-item version, the scholarly default)
-> susedifu source: `lexicon.toml` (64 entries)
+> susedifu source: `lexicon.toml` (68 entries)
 > This file is for comparison and drafting only — **nothing here has been written back into words.toml**; every draft may be edited or rejected.
 
 ## Coverage
@@ -18,10 +18,10 @@ Only 24 of the 207 items have existing words to build on; the remaining 183 all 
 ## Draft derivational principles (inferred from existing morphology)
 
 - Reuse of existing derivations:
-  - `di-` person/agent: difu, dikabu, didabu, digoga, dijohua
-  - `-we` flow: hosiwe 'wind' (flow of air), zijawe 'electric current', susewe 'sentence' (flow of speech) → hence the hypothesized root `we` = 'flow'
-  - `maha-` place of: mahasamu 'capital' (place of power), mahagogafu 'prison' (place of evil)
-  - Compounds put the modifier first: wozahosiwe, yikakada, dukawoza
+  - `di-` person/agent: difu, dikabu, didabu, disamu, dima, diba, dijohua, diwota, diwoza, digoga
+  - `-we` — the clipped form of weru 'water' (confirmed 2026-11-08; an earlier draft read it as an independent root 'flow'): hosiwe 'the air's water' = wind, zijawe 'electric current', susewe 'sentence'
+  - `maha-` place of: mahasamu 'capital' (place of power), mahagogafu 'prison' (place of the evil-collection)
+  - Compounds are head-initial (the head comes first): wozahosiwe = woza + hosiwe 'wind magic', yikakada = yika + kada, dukawoza = duka + woza
   - Color terms: only `yoki` 'yellow' exists; drafts imitate its form with a `-ki` color suffix (speculative, awaiting more evidence)
 - Draft phonological constraint: only sounds attested in existing words (vowels a e i o u; consonants b d f g h k m r s t w y z); syllables strictly (C)V
 - Interrogatives uniformly end in `-he`: dihe 'who', kihe 'what', mahahe 'where', wuhe 'when', zohe 'how'
@@ -29,6 +29,7 @@ Only 24 of the 207 items have existing words to build on; the remaining 183 all 
 - Some near-synonyms are deliberate minimal pairs (in the style of dima/diba, diya/dita):
   redu 'river' / redo 'lake' / rebu 'sea', kibo 'new' / kifo 'old', kize 'near' / koze 'far', yode 'left' / yodo 'right', toka 'foot' / tuga 'leg' / kuto 'knee', wika 'wide' / wigi 'narrow', tibi 'small' / tibo 'short', kizo 'sharp' / kodo 'dull', hago 'warm' / higo 'cold'
 - Monosyllabic function words match the existing set (de, sa, ya, si, so) → adding bu 'not', ka 'and', ma 'if', go 'because', ki 'this', ko 'that'
+  - ⚠ the draft 'if' ma now collides with the confirmed morpheme ma 'female' (clipped from mama); if 'if' is adopted, a different form is needed
 
 ## I. Pronouns, demonstratives and interrogatives (1–21)
 
@@ -290,7 +291,7 @@ Only 24 of the 207 items have existing words to build on; the remaining 183 all 
 ## Appendix I: existing words not covered by the 207-item list
 
 - `sa` 'be' (entry 19) — copulas are absent from the Swadesh list
-- `de` 'belong', `si`/`so` prepositions — grammar words
+- `de` 'of', `si`/`so` prepositions — grammar words
 - `susefu` 'language', `susedifu`, `kabufu` 'world' — not listed in the 207-item version
 - `fowu` 'clothes' — present in the longer (215-item) version, absent from the 207/100-item versions
 - The rest are fictional-world terms and proper names: the woza family (woza, susewoza, dukawoza, wozakabu, wozahosiwe, wozaweru, wozazija, weruwoza, diwoza, diwota), the samu family (samu, yikasamu, disamu, mahasamu), ethnonyms and place names (johua, dijohua, susejohua, tiho, ditiho, susetiho, roma, dati, mahasamu, mahagogafu), dodi, digoga, the kabu family (kabu, dikabu, susedikabu), susewe, zijawe

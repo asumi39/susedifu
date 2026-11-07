@@ -8,7 +8,7 @@ susedifu is a constructed language, the 'language of the people' (suse 'speech' 
   - `hosi` (air) + `we` → `hosiwe` (wind)
   - `suse` (speech) + `difu` (person) → `susedifu` (the language's own name)
   - `di-` marks person: `dikabu` (creator / god), `didabu` (worker), `dijohua` (Chinese person)
-- **A fictional world** — the vocabulary carries the Difu people's world setting: magic (woza), the magic-storing organ (dukawoza), the king (yikasamu), the capital Mahasamu (mahasamu), and more
+- **A fictional world** — the vocabulary carries the Difu people's world setting: magic (woza), the magic-storing organ (dukawoza), the king (disamu) and his scepter (yikasamu), the capital Mahasamu (mahasamu), and more
 
 ## Repository layout
 
