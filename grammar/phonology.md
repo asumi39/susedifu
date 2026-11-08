@@ -28,3 +28,4 @@
 ## Notes
 
 - The profile — small inventory, strict (C)V, no codas — is the constraint set for all future words (see the checklist in swadesh-coverage.md).
+- Script and letter order: see `alphabet.md`.

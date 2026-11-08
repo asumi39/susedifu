@@ -2,6 +2,8 @@
 
 susedifu is a constructed language, the 'language of the people' (suse 'speech' + difu 'person'), with a custom script font.
 
+![The susedifu alphabet](fonts/alphabet.png)
+
 ## Language highlights
 
 - **Agglutinative morphology** — new words derive from basic roots by compounding:
@@ -17,6 +19,7 @@ susedifu is a constructed language, the 'language of the people' (suse 'speech' 
 | `lexicon.toml` | The lexicon — 68 entries (64 base + 4 bound morphemes), grouped by semantic field; the single source of truth for words and etymology |
 | `grammar/` | Grammar docs: phonology, morphology, syntax, and a regression corpus of example sentences |
 | `swadesh-coverage.md` | Swadesh 207-item coverage map with empty slots reserved for manual word-filling |
+| `alphabet.md` | The alphabet — owner-confirmed letter order, letterform chart, and the script's open points |
 | `fonts/` | The custom script font (TTF + SVG) |
 
 ## License
