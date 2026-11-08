@@ -4,7 +4,7 @@
 
 ## Phoneme inventory
 
-- Vowels (attested): a e i o u — five vowels; no length or diphthong contrasts attested. Values follow the Japanese vowel set (confirmed, 2026-11-08): a [ä] open central, i [i], u [ɯ] close back unrounded — the lips are compressed, not rounded, e [e̞], o [o̞]. Japanese-style allophony (vowel devoicing, consonant palatalization before i): open — not assumed.
+- Vowels (attested): a e i o u — five vowels; no length or diphthong contrasts attested. Values follow the Japanese vowel set with one deviation (confirmed, 2026-11-08; u moved to the mainstream rounded value the same day): a [ä] open central, i [i], u [u] rounded — unlike the Japanese [ɯ], e [e̞], o [o̞]. Japanese-style allophony (vowel devoicing, consonant palatalization before i): open — not assumed.
 - Consonants (attested): b d f g h k m r s t w y z
 - h is a glottal fricative [h] (confirmed, 2026-11-08).
 - r is a voiced alveolar tap [ɾ] — the light rhotic, the weak member of the r–j pair (confirmed, 2026-11-08); heavier trill realizations are avoided, as they would invert the strength order.
