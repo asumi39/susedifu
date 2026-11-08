@@ -22,6 +22,7 @@ Within each place group, the pair with more closure comes first (m b → w f, t 
 
 - One-to-one mapping: each Latin letter has exactly one letterform; the font has no uppercase.
 - Within each consonant pair the two letterforms share a base shape — the second member adds a small circle (b = m + ◦, d = t + ◦, and likewise in all seven pairs). Whether the diacritic carries phonological meaning: open.
+- The seven pairs coincide exactly with the font's base+circle families — the script itself asserts these pairings.
 - All 19 letters occur in `lexicon.toml`; j is restricted to the johua family (see phonology.md).
 - Punctuation glyphs in the font: space, comma `,`, period `.`, slash `/`, question mark `?`.
 - The Latin letters c l n p q v have no glyphs — they correspond to sounds absent from the phoneme inventory.
@@ -32,7 +33,7 @@ Within each place group, the pair with more closure comes first (m b → w f, t 
 
 - Letter names — names are words, and words enter the language only from the owner (see AGENTS.md).
 - Writing direction and text layout.
-- Whether the consonant pairing carries phonological meaning (for instance t–d, k–g, s–z differ in voicing; m–b are both labial) — the pairing itself is owner-given; no rule is claimed.
+- Whether the consonant pairing carries phonological meaning — the pairing itself is owner-given; no rule is claimed. Observation from the letters' conventional values (h confirmed; the rest open): t–d, k–g, s–z are pure voicing oppositions, while each of m–b, w–f, h–y, r–j contains one of the four sonorants (m, w, y, r) and pairs by place or continuant kinship. The circle cannot mean voicing uniformly — m–b are both voiced.
 - The extra glyphs x (mapped in the TTF) and p (design layer only) — keep or drop.
 
 ## Files
