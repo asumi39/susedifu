@@ -26,7 +26,7 @@ Within each place group, the pair with more closure comes first (m b → w f, t 
 - All 19 letters occur in `lexicon.toml`; j is restricted to the johua family (see phonology.md).
 - Punctuation glyphs in the font: space, comma `,`, period `.`, slash `/`, question mark `?`.
 - The Latin letters c l n p q v have no glyphs — they correspond to sounds absent from the phoneme inventory.
-- The font maps **x** in addition to the alphabet's 19 letters; x is not part of the confirmed alphabet. The design source (`fonts/susedifu.svg`) also holds a **p** layer that was never exported to the TTF.
+- The font includes **x**, a reserved **symbol** (not an alphabet letter) with a deliberately smaller body (owner decision, 2026-11-08); its intended use: open. The old design source also held a **p** layer, never exported and now retired to git history.
 - Repository documents are written in Latin letters; the font renders them as the custom letterforms.
 
 ## Pair semantics (confirmed, 2026-11-08)
@@ -39,9 +39,10 @@ Natural correlates (h, j, r and the five vowels confirmed; other consonant value
 
 - Letter names — names are words, and words enter the language only from the owner (see AGENTS.md).
 - Writing direction and text layout.
-- The extra glyphs x (mapped in the TTF) and p (design layer only) — keep or drop.
+- The intended use of the reserved symbol **x**.
 
 ## Files
 
-- `fonts/susedifu.ttf` — the compiled font: 20 letter glyphs (the alphabet's 19 + x) and 5 punctuation characters
-- `fonts/susedifu.svg` — the Inkscape design source: one layer per glyph, with metric guides (ascent, cap height, x-height, baseline, descent)
+- `fonts/susedifu.ttf` — the compiled font, v2.0 (normalized parametric rebuild; 26 glyphs: 19 alphabet letters + x + 4 punctuation + space)
+- `fonts/susedifu.svg` — the stroke-based design source: one layer per glyph, metric guides, directly editable
+- `fonts/SPEC.md` — the font specification: global grid, stroke weights, height classes, skeleton summary
