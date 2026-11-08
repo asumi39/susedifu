@@ -6,6 +6,7 @@
 
 - Vowels (attested): a e i o u — five vowels; no length or diphthong contrasts attested.
 - Consonants (attested): b d f g h k m r s t w y z
+- h is a glottal fricative [h] (confirmed, 2026-11-08). The precise phonetic values of the other consonants: open — do not assume them.
 - j (attested, marginal): occurs only in the johua family (the loanword and its derivatives susejohua, dijohua).
 
 ## Phonotactics
