@@ -43,6 +43,6 @@ Natural correlates (h, j, r and the five vowels confirmed; other consonant value
 
 ## Files
 
-- `fonts/susedifu.ttf` — the compiled font, v2.0 (normalized parametric rebuild; 26 glyphs: 19 alphabet letters + x + 4 punctuation + space)
-- `fonts/susedifu.svg` — the stroke-based design source: one layer per glyph, metric guides, directly editable
-- `fonts/SPEC.md` — the font specification: global grid, stroke weights, height classes, skeleton summary
+- `fonts/susedifu.ttf` — the compiled hand-drawn font (26 glyphs: 19 alphabet letters + the reserved symbol x + 4 punctuation + space)
+- `fonts/susedifu.svg` — the Inkscape design source: one layer per glyph, with metric guides
+- `fonts/archive/` — archived font experiments (see its README; not the official font)

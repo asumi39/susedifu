@@ -14,7 +14,7 @@ This repository is the database of susedifu, a constructed language. It holds do
 - `grammar/` — phonology / morphology / syntax / examples; examples is the regression corpus of probe sentences
 - `swadesh-coverage.md` — Swadesh 207-item coverage map; the ⬜ slots are reserved for the owner to fill manually — the agent must not invent words into them
 - `alphabet.md` — the alphabet: owner-confirmed letter order (2026-11-08), letterform chart, script facts; the script's open points (letter names, writing direction, x/p) are recorded there
-- `fonts/susedifu.ttf`, `fonts/susedifu.svg` — the custom script font (normalized v2.0; specification in `fonts/SPEC.md`); do not modify unless necessary
+- `fonts/susedifu.ttf`, `fonts/susedifu.svg` — the custom script font (hand-drawn original); do not modify unless necessary
 - `LICENSE` (CC-BY 4.0, applies to all content) and `LICENSE-FONT` (SIL OFL 1.1, applies to fonts/)
 
 ## Consistency checks (run after every change)
