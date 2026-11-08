@@ -6,9 +6,13 @@
 ## Letter order (confirmed, 2026-11-08)
 
 - Vowels: **a i u e o**
-- Consonants, seven pairs: **m b · t d · w f · k g · h y · r j · s z**
+- Consonants, seven pairs arranged by place of articulation, front to back:
+  - Labial: **m b · w f**
+  - Coronal: **t d · s z**
+  - Guttural: **k g · h y**
+  - Sonorant: **r j**
 
-Full order: `a i u e o m b t d w f k g h y r j s z` — 19 letters.
+Within each place group, the pair with more closure comes first (m b → w f, t d → s z, k g → h y). The full order: `a i u e o m b w f t d s z k g h y r j` — 19 letters.
 
 ## Letterform chart
 
