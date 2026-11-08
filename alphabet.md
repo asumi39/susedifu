@@ -21,7 +21,7 @@ Within each place group, the pair with more closure comes first (m b → w f, t 
 ## Attested facts
 
 - One-to-one mapping: each Latin letter has exactly one letterform; the font has no uppercase.
-- Within each consonant pair the two letterforms share a base shape — the second member adds a small circle (b = m + ◦, d = t + ◦, and likewise in all seven pairs). Whether the diacritic carries phonological meaning: open.
+- Within each consonant pair the two letterforms share a base shape — the second member adds a small circle (b = m + ◦, d = t + ◦, and likewise in all seven pairs). The circle marks the stronger member of the pair (confirmed, 2026-11-08 — see Pair semantics).
 - The seven pairs coincide exactly with the font's base+circle families — the script itself asserts these pairings.
 - All 19 letters occur in `lexicon.toml`; j is restricted to the johua family (see phonology.md).
 - Punctuation glyphs in the font: space, comma `,`, period `.`, slash `/`, question mark `?`.
@@ -29,11 +29,17 @@ Within each place group, the pair with more closure comes first (m b → w f, t 
 - The font maps **x** in addition to the alphabet's 19 letters; x is not part of the confirmed alphabet. The design source (`fonts/susedifu.svg`) also holds a **p** layer that was never exported to the TTF.
 - Repository documents are written in Latin letters; the font renders them as the custom letterforms.
 
+## Pair semantics (confirmed, 2026-11-08)
+
+Within each pair, the first member is the weaker consonant and the second the stronger — the circle marks the strong member.
+
+Natural correlates (observation; h, j confirmed, other values open): the weak member is the voiceless one in t–d, k–g, s–z, h–y; the hum before the burst in m–b; the smooth glide before the turbulent fricative in w–f; and the lighter rhotic r before the fricated [ʐ] realization of j in r–j. Strength is thus acoustic substance — voicing, turbulence, burst — rather than any single feature.
+
 ## Open points
 
 - Letter names — names are words, and words enter the language only from the owner (see AGENTS.md).
 - Writing direction and text layout.
-- Whether the consonant pairing carries phonological meaning — the pairing itself is owner-given; no rule is claimed. Observation from the letters' conventional values (h, j confirmed; the rest open): t–d, k–g, s–z are pure voicing oppositions; m–b, w–f, h–y pair a sonorant (m, w, y) with a kin sound; r–j pairs the two sonorant continuants — r the rhotic and j the voiced retroflex approximant [ɻ], i.e. the strong and the weak r. The circle cannot mean voicing uniformly — m–b are both voiced.
+- r's precise realization — the strength rule fits the lighter rhotics (e.g. tap [ɾ]) in the weak slot; retroflex/palatal approximant territory belongs to j.
 - The extra glyphs x (mapped in the TTF) and p (design layer only) — keep or drop.
 
 ## Files
