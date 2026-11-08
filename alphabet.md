@@ -33,13 +33,12 @@ Within each place group, the pair with more closure comes first (m b → w f, t 
 
 Within each pair, the first member is the weaker consonant and the second the stronger — the circle marks the strong member.
 
-Natural correlates (observation; h, j confirmed, other values open): the weak member is the voiceless one in t–d, k–g, s–z, h–y; the hum before the burst in m–b; the smooth glide before the turbulent fricative in w–f; and the lighter rhotic r before the fricated [ʐ] realization of j in r–j. Strength is thus acoustic substance — voicing, turbulence, burst — rather than any single feature.
+Natural correlates (h, j, r confirmed; other values open): the weak member is the voiceless one in t–d, k–g, s–z, h–y; the hum before the burst in m–b; the smooth glide before the turbulent fricative in w–f; and the tap [ɾ] r before the fricative [ʐ] in r–j. Strength is thus acoustic substance — voicing, turbulence, burst — rather than any single feature.
 
 ## Open points
 
 - Letter names — names are words, and words enter the language only from the owner (see AGENTS.md).
 - Writing direction and text layout.
-- r's precise realization — the strength rule fits the lighter rhotics (e.g. tap [ɾ]) in the weak slot; retroflex/palatal approximant territory belongs to j.
 - The extra glyphs x (mapped in the TTF) and p (design layer only) — keep or drop.
 
 ## Files
