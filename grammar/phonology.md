@@ -17,6 +17,7 @@
 - Words begin with a consonant and end with a vowel (attested: no vowel-initial or consonant-final form among the 68).
 - No consonant clusters, no geminates, no vowel hiatus (attested: no counterexamples).
 - j is restricted to the johua family (attested).
+- Normative status: open — these are attested generalizations; whether they bind future coinages awaits owner confirmation.
 
 ## Prosody
 
@@ -28,6 +29,7 @@
 - Nasal codas of the source are dropped: dati < lādīng (ding → ti), johua < Zhōnghuá (zhong → jo)
 - Retroflex affricates soften to the voiced retroflex continuant (attested once): johua < Zhōnghuá — zh [ʈʂ] → j [ʐ]
 - j exists only as loanword output (attested)
+- Not yet covered by any rule: vowel-initial sources, non-nasal final consonants, source clusters and diphthongs — the first cases will set the precedents.
 
 ## Notes
 
