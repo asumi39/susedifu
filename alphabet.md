@@ -33,7 +33,7 @@ Within each place group, the pair with more closure comes first (m b → w f, t 
 
 Within each pair, the first member is the weaker consonant and the second the stronger — the circle marks the strong member.
 
-Natural correlates (h, j, r confirmed; other values open): the weak member is the voiceless one in t–d, k–g, s–z, h–y; the hum before the burst in m–b; the smooth glide before the turbulent fricative in w–f; and the tap [ɾ] r before the fricative [ʐ] in r–j. Strength is thus acoustic substance — voicing, turbulence, burst — rather than any single feature.
+Natural correlates (h, j, r and the five vowels confirmed; other consonant values open): the weak member is the voiceless one in t–d, k–g, s–z, h–y; the hum before the burst in m–b; the smooth glide before the turbulent fricative in w–f; and the tap [ɾ] r before the fricative [ʐ] in r–j. Strength is thus acoustic substance — voicing, turbulence, burst — rather than any single feature.
 
 ## Open points
 
