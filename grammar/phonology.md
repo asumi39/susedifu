@@ -21,7 +21,9 @@
 
 ## Prosody
 
-- Stress: undetermined — nothing in the lexicon bears on it. Do not assume a default when describing new words.
+- Stress: word-initial — every word stresses its first syllable (confirmed, 2026-11-08).
+- Rationale: compounding is head-initial, so the semantic core is always the first element; initial stress puts the prominence on the meaning core (wozahosiwe ★WO-za-ho-si-we, mahagogafu ★MA-ha-go-ga-fu, susedifu ★SU-se-di-fu). In di- prefixed words the stress falls on the prefix, which itself carries the category meaning 'person'.
+- Secondary stress in long words: open.
 
 ## Loanword adaptation
 
