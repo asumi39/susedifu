@@ -67,9 +67,52 @@ symbol **x** (not a letter; deliberately smaller body), and punctuation
   relative to the baseline; residual rasterization differences under hinting
   are renderer-side and not outline changes.
 
+## The 2026-11-08 stroke-width normalization (v1.2)
+
+Letterform-level change, owner-requested in chat and owner-approved on proof
+comparisons before anything touched the repository.
+
+Motivation: measured typical stroke width varied 32–70 units across the 19
+letters (i/e lightest, k/g ≈ +50% heavier). The owner chose full
+normalization toward a 40u target.
+
+Method: structure-preserving point offset. Every non-ring outline point moves
+along its local normal (neighbor-tangent estimate); point counts, curve
+segmentation, and flags are unchanged — the outlines are moved, never redrawn.
+Deltas are per pair (both members of a letter pair share the value, keeping
+pair base identity). Three passes: pass 1 = approved table
+(a +1, i +4, u +1, e +4, o +1, m/b −2.5, w/f +1, t/d +0.5, s/z +1.5,
+k/g −7.5, h/y −1, r/j +1 — units, em = 1024); passes 2–3 measurement-driven
+refinement (d = (40 − measured)/gain, learned per letter). The same pass
+sequence was replayed on the SVG's own cubic points, so the design source and
+the font moved together.
+
+Ring exemption: the strong-member ring dot (31/15 + 22/10 + 21/10 point
+signatures) is byte-exact untouched. Note: the d ring inner contour is 21/10 —
+the first experiment run missed it (1.3u shift); the released artifact was
+regenerated with the corrected signature before approval/installation.
+
+Verification (all pass on the released artifact):
+
+- Structure identity vs v1.1: point counts, flags, contour ends identical for
+  all 19 letters.
+- Ring points byte-identical in all seven strong letters.
+- No stroke breakage: connected-component counts unchanged.
+- Convergence: typical stroke width 38–42u (was 32–70u).
+- Max single-point displacement 13u (k; ≤7u for most letters) — same order as
+  the hand-drawn baseline jitter (±9u).
+- Metrics invariants unchanged: em 1024, hhea/OS-2 750/−200, fsType 0,
+  advances 648, gasp, glyph inventory 28. hmtx lsb and hhea bearing fields
+  reconciled to the moved outlines. Version 1.2.
+- SVG sync: 24 path elements rewritten (19 letters; e/w/z/j/h exist as two
+  identical full-size sets, both synced). Per-letter rasterized ink changes
+  match the recorded pass sequence. Word-sample layers did not match font
+  geometry and were left untouched (historical drawings at other scales).
+- `fonts/alphabet.png` regenerated from v1.2.
+
 ## Files
 
-- `fonts/susedifu.ttf` — the official font, container v1.1 (2026-11-08)
-- `fonts/susedifu.svg` — the design source (untouched by the rebuild; authority for letterforms)
+- `fonts/susedifu.ttf` — the official font, container v1.2 (2026-11-08)
+- `fonts/susedifu.svg` — the design source (stroke-normalized in lockstep with the font; authority for letterforms)
 - `fonts/archive/original-container-2026-11-08/` — the pre-rebuild binary, kept for provenance
 - `fonts/archive/v2-parametric-2026-11-08/` — rejected 2026 letterform-rebuild experiment (NOT the official font)
