@@ -7,7 +7,7 @@
 - Vowels (attested): a e i o u — five vowels; no length or diphthong contrasts attested.
 - Consonants (attested): b d f g h k m r s t w y z
 - h is a glottal fricative [h] (confirmed, 2026-11-08). The precise phonetic values of the other consonants: open — do not assume them.
-- j (attested, marginal): occurs only in the johua family (the loanword and its derivatives susejohua, dijohua).
+- j (attested, marginal): occurs only in the johua family (the loanword and its derivatives susejohua, dijohua). j is a voiced retroflex approximant [ɻ] — fricative realization [ʐ] acceptable, the sound of Mandarin pinyin r (confirmed, 2026-11-08; chosen so that the r–j pair is tight).
 
 ## Phonotactics
 
@@ -24,6 +24,7 @@
 
 - l → d (attested twice): dati < 拉丁 lādīng, dodi < 蘿莉 luólì — l is absent from the inventory
 - Nasal codas of the source are dropped: dati < lādīng (ding → ti), johua < Zhōnghuá (zhong → jo)
+- Retroflex affricates soften to the voiced retroflex continuant (attested once): johua < Zhōnghuá — zh [ʈʂ] → j [ɻ]
 - j exists only as loanword output (attested)
 
 ## Notes

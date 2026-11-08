@@ -33,7 +33,7 @@ Within each place group, the pair with more closure comes first (m b → w f, t 
 
 - Letter names — names are words, and words enter the language only from the owner (see AGENTS.md).
 - Writing direction and text layout.
-- Whether the consonant pairing carries phonological meaning — the pairing itself is owner-given; no rule is claimed. Observation from the letters' conventional values (h confirmed; the rest open): t–d, k–g, s–z are pure voicing oppositions, while each of m–b, w–f, h–y, r–j contains one of the four sonorants (m, w, y, r) and pairs by place or continuant kinship. The circle cannot mean voicing uniformly — m–b are both voiced.
+- Whether the consonant pairing carries phonological meaning — the pairing itself is owner-given; no rule is claimed. Observation from the letters' conventional values (h, j confirmed; the rest open): t–d, k–g, s–z are pure voicing oppositions; m–b, w–f, h–y pair a sonorant (m, w, y) with a kin sound; r–j pairs the two sonorant continuants — r the rhotic and j the voiced retroflex approximant [ɻ], i.e. the strong and the weak r. The circle cannot mean voicing uniformly — m–b are both voiced.
 - The extra glyphs x (mapped in the TTF) and p (design layer only) — keep or drop.
 
 ## Files
