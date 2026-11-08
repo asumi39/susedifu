@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repository is the database of susedifu, a constructed language. It holds documents and fonts only, no code: no build, test, or lint. After changes, run the consistency checks below.
+This repository is the database of susedifu, a constructed language. It holds documents and fonts only, no code: no build, test, lint, or CI. After changes, run the consistency checks below.
 
 ## Language essentials
 
@@ -13,11 +13,27 @@ This repository is the database of susedifu, a constructed language. It holds do
 - `lexicon.toml` — the lexicon (68 entries: 64 from the original table + 4 bound morphemes), grouped into semantic sections with root families kept adjacent; the single source of truth for words and etymology; one `[[word]]` block per entry, field reference in the header comment
 - `grammar/` — phonology / morphology / syntax / examples; examples is the regression corpus of probe sentences
 - `swadesh-coverage.md` — Swadesh 207-item coverage map; the ⬜ slots are reserved for the owner to fill manually — the agent must not invent words into them
-- `alphabet.md` — the alphabet: owner-confirmed letter order (2026-11-08), letterform chart, script facts; the script's open points (letter names, writing direction, x/p) are recorded there
-- `fonts/susedifu.ttf`, `fonts/susedifu.svg` — the custom script font (hand-drawn outlines; TTF container rebuilt 2026-11-08 with zero outline changes, see `fonts/SPEC.md`); do not modify unless necessary
+- `alphabet.md` — the alphabet: owner-confirmed letter order (2026-11-08), letterform chart, script facts; the script's open points (letter names, writing direction, the reserved symbol x) are recorded there
+- `fonts/susedifu.svg` — the hand-drawn Inkscape design source; **the authority for letterforms**
+- `fonts/susedifu.ttf` — the official font; its outlines must stay point-identical to the SVG (container spec and verification record in `fonts/SPEC.md`)
+- `fonts/alphabet.png` — rendered letterform chart
+- `fonts/archive/` — provenance copies and rejected experiments (READMEs inside); nothing there is official
 - `LICENSE` (CC-BY 4.0, applies to all content) and `LICENSE-FONT` (SIL OFL 1.1, applies to fonts/)
 
+## Font discipline (hard rule)
+
+- The letterforms are the owner's hand-drawn design. Never redraw, regenerate, or "fix" them — not even to repair container defects. A parametric rebuild was attempted on 2026-11-08 and rejected; it survives only as `fonts/archive/v2-parametric-2026-11-08/`.
+- Container-level changes (metrics, name table, table set) are allowed only on explicit owner request.
+- Protocol for any font action: build in a temp directory → verify outline point-identity against the current official font → show per-glyph proof comparisons → get owner approval in chat → only then touch repo files and record the change in `fonts/SPEC.md`.
+
+## Claim discipline
+
+- `grammar/` and `alphabet.md` tag every claim: **confirmed** (owner decision) / **(attested)** (generalizable from `lexicon.toml` or the font) / **(proposed)** (new, needs owner confirmation) / **open** (undecided).
+- Undecided points stay marked **open** — the owner decides them in chat. Never fill an open point by invention, in any file.
+
 ## Consistency checks (run after every change)
+
+No tooling or CI exists for these — they are grep-and-read checks.
 
 1. Every word cited in `grammar/` exists in `lexicon.toml`.
 2. No duplicate word forms in `lexicon.toml`, except attested homonyms (sa, entries 19/20).
