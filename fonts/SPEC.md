@@ -110,9 +110,38 @@ Verification (all pass on the released artifact):
   geometry and were left untouched (historical drawings at other scales).
 - `fonts/alphabet.png` regenerated from v1.2.
 
+## The 2026-11-09 ring-dot normalization (v1.3)
+
+Letterform-level change (ring contours only), owner-requested ("那个圈" —
+normalize the controllable parts) and owner-approved on the option frame
+(opt1: geometric perfect circles) after a magnified proof comparison.
+
+Measured before: ring outer equivalent radius R 82.5–86.6 on b/f/g/y with
+stroke 24.5–25.7 and circularity ≈ 0.97; z at R 71.2 (−16%) and d at R 65.2
+(−23%), both with thinner strokes — the only outliers.
+
+Method (opt1): for each strong letter, both ring contours are projected
+radially onto exact concentric circles R_out = 85 / R_in = 60 (stroke 25)
+around the letter's own ring center (kept per letter, never moved). Quad
+handles are placed at the tangent-intersection radius r/cos(φ/2) along their
+original angle, so the drawn curve hugs the target circle (fitted radius
+84.94–85.07 / 60.02–60.17; max radial residual 0.44–1.19u vs 4–6.5u
+hand-drawn). The same projection is applied to the ring subpaths of the SVG
+design source (its own center kept; cubic handles at 4/3·tan(θ/4)·r along
+neighbor-anchor tangents). Point counts, flags, contour ends unchanged; base
+letter contours byte-identical to v1.2.
+
+Verification: base contours byte-identical; ring structure identical; no
+stroke breakage; minimum ring-to-base clearance 25.3u (j, was 36.5 — rings
+grew but stay clear); non-ring rasterized ink unchanged 0.00%; metrics
+invariants unchanged (750/−200, fsType 0, advances 648); hmtx lsb reconciled.
+Version 1.3. SVG: exactly the 9 matched strong-letter path elements rewritten
+(including the duplicated z/j glyph sets); word-sample layers untouched.
+`fonts/alphabet.png` regenerated from v1.3.
+
 ## Files
 
-- `fonts/susedifu.ttf` — the official font, container v1.2 (2026-11-08)
-- `fonts/susedifu.svg` — the design source (stroke-normalized in lockstep with the font; authority for letterforms)
+- `fonts/susedifu.ttf` — the official font, container v1.3 (2026-11-09)
+- `fonts/susedifu.svg` — the design source (stroke- and ring-normalized in lockstep; authority for letterforms)
 - `fonts/archive/original-container-2026-11-08/` — the pre-rebuild binary, kept for provenance
 - `fonts/archive/v2-parametric-2026-11-08/` — rejected 2026 letterform-rebuild experiment (NOT the official font)
