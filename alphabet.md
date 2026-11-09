@@ -43,7 +43,7 @@ Natural correlates (h, j, r and the five vowels confirmed; other consonant value
 
 ## Files
 
-- `fonts/susedifu.ttf` — the official font: hand-drawn outlines, container v1.3 (2026-11-08 stroke-width normalization + 2026-11-09 ring-dot normalization, structure-preserving; record in `fonts/SPEC.md`)
+- `fonts/susedifu.ttf` — the official font: hand-drawn outlines, container v1.4 (2026-11-08 stroke-width + 2026-11-09 ring-dot & hourglass normalizations, structure-preserving; record in `fonts/SPEC.md`)
 - `fonts/susedifu.svg` — the Inkscape design source: one layer per glyph, with metric guides; the authority for letterforms
 - `fonts/SPEC.md` — the font-container specification: design grid, metrics, glyph inventory, verification record
 - `fonts/archive/` — archived experiments and provenance copies (see the READMEs; the official font lives above)

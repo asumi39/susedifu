@@ -139,9 +139,48 @@ Version 1.3. SVG: exactly the 9 matched strong-letter path elements rewritten
 (including the duplicated z/j glyph sets); word-sample layers untouched.
 `fonts/alphabet.png` regenerated from v1.3.
 
+## The 2026-11-09 hourglass normalization + pair-base unification (v1.4)
+
+Letterform-level change (m/b strokes + all seven pair bases), owner-requested
+("直線規範化 + 粗細統一" + "配對字母相同元件一致化") and owner-approved on the
+option frame (bars snap to exact horizontal; six strokes unified to ONE width)
+after magnified proof comparisons.
+
+m/b (the hourglass letters): the six strokes (top bar, bottom bar, four
+diagonals) are straightened onto exact lines — top/bottom bars snap to exactly
+0° (owner decision: 歸正水平), diagonals keep their mean fitted angle — and
+all six strokes are set to a uniform width of 31u (owner decision: 六筆統一單
+一寬度; median of the six per-stroke medians). Both contour sides of each
+stroke move (main outline + the facing counter edge); corners are recomputed
+as adjacent-line intersections; the waist crossing stays organic; the ring is
+untouched. Measured before: bars sloped 3.6°/−2.8° with 4–6u bow; TR diagonal
+bowed 19.4u; widths tapered 29–37u.
+
+Pair-base unification: every strong member's base contours are replaced by
+the weak member's — byte-exact. The pairs are now literally base + ring:
+b = m + ◦, d = t + ◦, f = w + ◦, z = s + ◦, g = k + ◦, y = h + ◦, j = r + ◦
+(all ring dots are the v1.3 exact circles, untouched). Weak members are
+unchanged; the other letters (a i u e o) are untouched.
+
+Verification: pair bases byte-identical (7/7); rings byte-identical to v1.3;
+untouched letters (a i u e o) byte-identical; m/b width profiles constant at
+31u along all six strokes; bars horizontal (anchor y-range 580–580 / 13–13);
+metrics invariants unchanged; Version 1.4. SVG: the eight changed glyph paths
+are rebuilt directly from the v1.4 TTF contours as quadratic paths (exact
+mirror of the font; the changed glyphs' SVG representation switches from
+cubic to quadratic — unchanged glyphs keep their cubic paths). Per-letter
+raster IoU vs the font 94–99%. Placement per glyph from the old drawing's
+y-box (C ≈ 821–828 per letter). `fonts/alphabet.png` regenerated from v1.4.
+
+Note on SVG↔TTF divergence: the v1.2 stroke normalization used different
+algorithms on the two representations (TTF point-projection vs SVG
+line-projection), leaving small (≤9u bbox) divergences on some edges. Those
+are pre-existing and inherited by the pair copies; v1.4 introduces no new
+divergence (the changed paths mirror the font exactly).
+
 ## Files
 
-- `fonts/susedifu.ttf` — the official font, container v1.3 (2026-11-09)
-- `fonts/susedifu.svg` — the design source (stroke- and ring-normalized in lockstep; authority for letterforms)
+- `fonts/susedifu.ttf` — the official font, container v1.4 (2026-11-09)
+- `fonts/susedifu.svg` — the design source (hourglass + pairs normalized in lockstep; changed glyphs as quadratic paths; authority for letterforms)
 - `fonts/archive/original-container-2026-11-08/` — the pre-rebuild binary, kept for provenance
 - `fonts/archive/v2-parametric-2026-11-08/` — rejected 2026 letterform-rebuild experiment (NOT the official font)
